@@ -1,0 +1,417 @@
+id,time_treatment,time_onset,time_resolved,toxicity_ind,toxicity_category,grade,attribution_definite,attribution_probable,attribution_possible,AE_Trt
+11,0,6,21,Pain,General disorders and administration site conditions,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+11,0,18,21,Dry mouth,Gastrointestinal disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+11,0,18,84,Productive cough,"Respiratory, thoracic and mediastinal disorders",1,Not  Applicable,Not  Applicable,Not  Applicable,No
+11,21,21,59,Pain,General disorders and administration site conditions,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+11,42,42,42,Vomiting,Gastrointestinal disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+11,59,59,76,Hypotension,Vascular disorders,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+11,59,59,263,Chest wall pain,Musculoskeletal and connective tissue disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+11,59,59,112,Lung infection,Infections and infestations,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+11,59,59,76,Alkaline phosphatase increased,Investigations,3,Not  Applicable,Not  Applicable,Not  Applicable,No
+11,59,74,75,Anemia,Blood and lymphatic system disorders,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+11,59,74,77,Hyperkalemia,Metabolism and nutrition disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+11,59,75,84,Thromboembolic event,Vascular disorders,3,Not  Applicable,Not  Applicable,Not  Applicable,No
+11,59,79,84,Edema limbs,General disorders and administration site conditions,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+21,41,41,228,Anorexia,Metabolism and nutrition disorders,2,TRAE,Not  Applicable,TRAE,Yes
+21,41,41,104,Dysgeusia,Nervous system disorders,1,TRAE,Not  Applicable,Not  Applicable,Yes
+21,41,54,54,Vomiting,Gastrointestinal disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+21,41,54,54,Nausea,Gastrointestinal disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+21,41,55,83,Abdominal pain,Gastrointestinal disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+21,41,62,153,Weight loss,Investigations,1,Not  Applicable,Not  Applicable,TRAE,Yes
+21,153,153,228,Weight loss,Investigations,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+31,0,4,93,Tremor,Nervous system disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+31,0,4,93,Gait disturbance,General disorders and administration site conditions,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+31,0,13,15,Constipation,Gastrointestinal disorders,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+31,0,16,25,Constipation,Gastrointestinal disorders,3,Not  Applicable,Not  Applicable,Not  Applicable,No
+31,0,16,25,Pain,General disorders and administration site conditions,3,Not  Applicable,Not  Applicable,Not  Applicable,No
+31,0,16,93,Weight loss,Investigations,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+31,0,16,93,Anorexia,Metabolism and nutrition disorders,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+31,0,16,16,Vomiting,Gastrointestinal disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+31,0,18,19,Dyspnea,"Respiratory, thoracic and mediastinal disorders",1,Not  Applicable,Not  Applicable,Not  Applicable,No
+31,0,18,27,Cough,"Respiratory, thoracic and mediastinal disorders",1,Not  Applicable,Not  Applicable,Not  Applicable,No
+31,0,18,18,Hypotension,Vascular disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+31,0,25,93,Dysphagia,Gastrointestinal disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+31,0,26,27,Constipation,Gastrointestinal disorders,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+31,0,27,28,Nausea,Gastrointestinal disorders,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+31,0,27,28,Vomiting,Gastrointestinal disorders,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+31,0,27,31,Arthralgia,Musculoskeletal and connective tissue disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+31,0,27,31,Myalgia,Musculoskeletal and connective tissue disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+31,0,27,31,Arthralgia,Musculoskeletal and connective tissue disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+31,0,27,31,Myalgia,Musculoskeletal and connective tissue disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+31,0,28,32,Nausea,Gastrointestinal disorders,3,Not  Applicable,Not  Applicable,Not  Applicable,No
+31,0,28,32,Vomiting,Gastrointestinal disorders,3,Not  Applicable,Not  Applicable,Not  Applicable,No
+31,0,28,32,Pain,General disorders and administration site conditions,3,Not  Applicable,Not  Applicable,Not  Applicable,No
+31,0,28,32,Nausea,Gastrointestinal disorders,3,Not  Applicable,Not  Applicable,Not  Applicable,No
+31,0,28,32,Vomiting,Gastrointestinal disorders,3,Not  Applicable,Not  Applicable,Not  Applicable,No
+31,0,28,32,Pain,General disorders and administration site conditions,3,Not  Applicable,Not  Applicable,Not  Applicable,No
+41,0,21,113,Anorexia,Metabolism and nutrition disorders,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+51,20,20,68,Creatinine increased,Investigations,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+51,61,61,96,Anemia,Blood and lymphatic system disorders,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+51,61,61,68,Blood bilirubin increased,Investigations,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+51,61,61,68,Hypermagnesemia,Metabolism and nutrition disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+51,61,61,68,Hyperglycemia,Metabolism and nutrition disorders,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+51,61,61,68,Hyponatremia,Metabolism and nutrition disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+51,96,96,223,Dysgeusia,Nervous system disorders,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+61,0,0,56,Fatigue,General disorders and administration site conditions,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+61,20,26,29,Diarrhea,Gastrointestinal disorders,3,Not  Applicable,Not  Applicable,Not  Applicable,No
+61,43,43,224,Creatinine increased,Investigations,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+61,43,56,224,Fatigue,General disorders and administration site conditions,2,Not  Applicable,Not  Applicable,TRAE,Yes
+61,43,60,224,Dyspnea,"Respiratory, thoracic and mediastinal disorders",2,Not  Applicable,Not  Applicable,Not  Applicable,No
+71,0,2,5,Fever,General disorders and administration site conditions,3,Not  Applicable,Not  Applicable,Not  Applicable,No
+71,0,2,5,Hypotension,Vascular disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+71,0,21,82,Fracture,"Injury, poisoning and procedural complications",2,Not  Applicable,Not  Applicable,Not  Applicable,No
+71,0,25,26,Fever,General disorders and administration site conditions,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+71,0,26,61,Confusion,Psychiatric disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+71,0,26,30,Hypernatremia,Metabolism and nutrition disorders,3,Not  Applicable,Not  Applicable,Not  Applicable,No
+71,0,26,61,Back pain,Musculoskeletal and connective tissue disorders,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+71,0,27,29,Hypoxia,"Respiratory, thoracic and mediastinal disorders",3,Not  Applicable,Not  Applicable,Not  Applicable,No
+71,0,27,29,Tremor,Nervous system disorders,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+71,0,27,37,Bronchial infection,Infections and infestations,3,Not  Applicable,Not  Applicable,Not  Applicable,No
+71,0,27,29,Encephalopathy,Nervous system disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+71,0,29,31,Urinary retention,Renal and urinary disorders,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+81,0,11,304,Hypokalemia,Metabolism and nutrition disorders,3,Not  Applicable,Not  Applicable,Not  Applicable,No
+81,0,11,21,Bronchial infection,Infections and infestations,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+81,0,11,304,Anemia,Blood and lymphatic system disorders,1,Not  Applicable,Not  Applicable,TRAE,Yes
+81,26,26,304,Dyspnea,"Respiratory, thoracic and mediastinal disorders",1,Not  Applicable,Not  Applicable,Not  Applicable,No
+81,26,34,304,"Respiratory, thoracic and mediastinal disorders - Other, specify","Respiratory, thoracic and mediastinal disorders",2,Not  Applicable,Not  Applicable,Not  Applicable,No
+81,26,46,51,Bronchial infection,Infections and infestations,3,Not  Applicable,Not  Applicable,Not  Applicable,No
+81,26,46,51,Fever,General disorders and administration site conditions,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+81,26,47,50,Anemia,Blood and lymphatic system disorders,3,Not  Applicable,Not  Applicable,Not  Applicable,No
+81,26,47,54,Creatinine increased,Investigations,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+81,26,47,91,Platelet count decreased,Investigations,2,TRAE,Not  Applicable,Not  Applicable,Yes
+81,26,54,58,Thromboembolic event,Vascular disorders,3,Not  Applicable,Not  Applicable,Not  Applicable,No
+81,50,56,304,Anemia,Blood and lymphatic system disorders,3,Not  Applicable,Not  Applicable,Not  Applicable,No
+91,0,11,78,Fatigue,General disorders and administration site conditions,1,Not  Applicable,TRAE,Not  Applicable,Yes
+91,27,51,372,Hypothyroidism,Endocrine disorders,2,Not  Applicable,TRAE,Not  Applicable,Yes
+91,51,78,128,Cough,"Respiratory, thoracic and mediastinal disorders",1,Not  Applicable,Not  Applicable,TRAE,Yes
+91,51,78,128,Anorexia,Metabolism and nutrition disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+91,51,78,128,Hyperglycemia,Metabolism and nutrition disorders,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+91,51,78,128,Anemia,Blood and lymphatic system disorders,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+91,51,78,128,Fatigue,General disorders and administration site conditions,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+91,78,89,89,Dehydration,Metabolism and nutrition disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+91,78,128,372,Anemia,Blood and lymphatic system disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+91,149,173,149,Platelet count decreased,Investigations,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+91,149,173,196,Dysgeusia,Nervous system disorders,2,Not  Applicable,TRAE,Not  Applicable,Yes
+91,173,180,173,Diarrhea,Gastrointestinal disorders,1,Not  Applicable,Not  Applicable,TRAE,Yes
+91,173,196,372,Pain in extremity,Musculoskeletal and connective tissue disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+101,0,1,386,Diarrhea,Gastrointestinal disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+101,0,1,367,Fatigue,General disorders and administration site conditions,1,Not  Applicable,TRAE,Not  Applicable,Yes
+101,21,46,71,Pelvic pain,Reproductive system and breast disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+101,21,46,94,Back pain,Musculoskeletal and connective tissue disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+101,42,46,316,Thromboembolic event,Vascular disorders,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+101,92,94,122,Creatinine increased,Investigations,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+101,143,144,189,Peripheral sensory neuropathy,Nervous system disorders,1,Not  Applicable,TRAE,Not  Applicable,Yes
+101,143,144,210,Creatinine increased,Investigations,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+101,189,189,210,Peripheral sensory neuropathy,Nervous system disorders,2,Not  Applicable,TRAE,Not  Applicable,Yes
+101,210,210,NA,Peripheral sensory neuropathy,Nervous system disorders,1,Not  Applicable,TRAE,Not  Applicable,Yes
+101,71,436,94,Pain in extremity,Musculoskeletal and connective tissue disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+111,26,26,586,Hypothyroidism,Endocrine disorders,2,Not  Applicable,Not  Applicable,TRAE,Yes
+111,51,51,133,Creatinine increased,Investigations,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+111,51,51,103,Blood bilirubin increased,Investigations,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+111,51,51,103,Platelet count decreased,Investigations,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+111,77,77,203,Constipation,Gastrointestinal disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+111,103,110,160,Myalgia,Musculoskeletal and connective tissue disorders,3,Not  Applicable,TRAE,Not  Applicable,Yes
+111,103,160,187,Myalgia,Musculoskeletal and connective tissue disorders,1,Not  Applicable,TRAE,Not  Applicable,Yes
+111,160,180,586,Pain,General disorders and administration site conditions,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+111,160,187,191,Myalgia,Musculoskeletal and connective tissue disorders,3,Not  Applicable,TRAE,Not  Applicable,Yes
+111,191,203,244,Fatigue,General disorders and administration site conditions,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+111,191,203,218,Weight loss,Investigations,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+121,0,4,24,Anemia,Blood and lymphatic system disorders,3,Not  Applicable,Not  Applicable,Not  Applicable,No
+121,0,24,57,Anorexia,Metabolism and nutrition disorders,1,Not  Applicable,Not  Applicable,TRAE,Yes
+121,0,24,57,Fatigue,General disorders and administration site conditions,2,Not  Applicable,TRAE,Not  Applicable,Yes
+121,24,48,57,Pain,General disorders and administration site conditions,3,Not  Applicable,Not  Applicable,Not  Applicable,No
+121,24,48,57,Anemia,Blood and lymphatic system disorders,3,Not  Applicable,Not  Applicable,Not  Applicable,No
+121,24,57,57,"General disorders and administration site conditions - Other, specify",General disorders and administration site conditions,5,Not  Applicable,Not  Applicable,Not  Applicable,No
+131,0,1,161,Nausea,Gastrointestinal disorders,1,Not  Applicable,Not  Applicable,TRAE,Yes
+131,0,5,10,Flu like symptoms,General disorders and administration site conditions,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+131,0,12,50,Neuralgia,Nervous system disorders,1,Not  Applicable,Not  Applicable,TRAE,Yes
+131,22,50,161,Neuralgia,Nervous system disorders,2,Not  Applicable,Not  Applicable,TRAE,Yes
+131,22,50,113,Anemia,Blood and lymphatic system disorders,2,Not  Applicable,Not  Applicable,TRAE,Yes
+131,22,50,132,Creatinine increased,Investigations,1,Not  Applicable,Not  Applicable,TRAE,Yes
+131,22,50,71,Platelet count decreased,Investigations,1,Not  Applicable,Not  Applicable,TRAE,Yes
+131,50,61,161,Pain,General disorders and administration site conditions,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+131,71,82,161,Vomiting,Gastrointestinal disorders,1,Not  Applicable,Not  Applicable,TRAE,Yes
+131,71,83,161,Gastroesophageal reflux disease,Gastrointestinal disorders,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+131,92,100,104,Confusion,Psychiatric disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+131,92,113,132,Anemia,Blood and lymphatic system disorders,3,Not  Applicable,Not  Applicable,TRAE,Yes
+131,92,113,160,Hypoalbuminemia,Metabolism and nutrition disorders,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+131,92,131,161,Confusion,Psychiatric disorders,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+131,92,133,133,Hypoxia,"Respiratory, thoracic and mediastinal disorders",3,Not  Applicable,Not  Applicable,Not  Applicable,No
+131,92,133,161,"Infections and infestations - Other, specify",Infections and infestations,3,Not  Applicable,Not  Applicable,Not  Applicable,No
+131,160,160,161,Edema limbs,General disorders and administration site conditions,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+141,0,1,5,Pain,General disorders and administration site conditions,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+141,0,24,402,Hypothyroidism,Endocrine disorders,2,Not  Applicable,TRAE,Not  Applicable,Yes
+141,24,38,101,Dry skin,Skin and subcutaneous tissue disorders,1,Not  Applicable,Not  Applicable,TRAE,Yes
+141,24,52,122,Creatinine increased,Investigations,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+141,52,53,143,Fatigue,General disorders and administration site conditions,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+141,52,53,101,Nausea,Gastrointestinal disorders,1,Not  Applicable,Not  Applicable,TRAE,Yes
+141,52,53,54,Fever,General disorders and administration site conditions,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+141,77,101,122,Dry skin,Skin and subcutaneous tissue disorders,2,Not  Applicable,Not  Applicable,TRAE,Yes
+141,101,122,169,Dry skin,Skin and subcutaneous tissue disorders,1,Not  Applicable,Not  Applicable,TRAE,Yes
+141,143,143,402,Diarrhea,Gastrointestinal disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+141,213,231,233,Lung infection,Infections and infestations,3,Not  Applicable,Not  Applicable,Not  Applicable,No
+141,213,231,233,Atrial fibrillation,Cardiac disorders,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+141,238,238,259,Non-cardiac chest pain,General disorders and administration site conditions,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+141,329,343,394,Fatigue,General disorders and administration site conditions,2,Not  Applicable,Not  Applicable,TRAE,Yes
+141,350,368,402,Paroxysmal atrial tachycardia,Cardiac disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+141,394,401,402,Sepsis,Infections and infestations,5,Not  Applicable,Not  Applicable,Not  Applicable,No
+151,0,0,33,Fatigue,General disorders and administration site conditions,1,Not  Applicable,Not  Applicable,TRAE,Yes
+151,0,4,68,Pain,General disorders and administration site conditions,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+151,0,4,68,Anorexia,Metabolism and nutrition disorders,1,Not  Applicable,Not  Applicable,TRAE,Yes
+151,0,28,68,Platelet count decreased,Investigations,1,Not  Applicable,Not  Applicable,TRAE,Yes
+151,28,33,35,Dyspnea,"Respiratory, thoracic and mediastinal disorders",3,Not  Applicable,Not  Applicable,Not  Applicable,No
+151,28,33,35,Pleural effusion,"Respiratory, thoracic and mediastinal disorders",3,Not  Applicable,Not  Applicable,Not  Applicable,No
+151,28,33,68,Fatigue,General disorders and administration site conditions,3,Not  Applicable,Not  Applicable,Not  Applicable,No
+151,28,35,68,Fatigue,General disorders and administration site conditions,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+151,28,49,68,Anemia,Blood and lymphatic system disorders,2,Not  Applicable,Not  Applicable,TRAE,Yes
+161,0,11,16,Thromboembolic event,Vascular disorders,4,Not  Applicable,Not  Applicable,Not  Applicable,No
+161,0,11,16,Dyspnea,"Respiratory, thoracic and mediastinal disorders",3,Not  Applicable,Not  Applicable,Not  Applicable,No
+161,25,33,34,Cough,"Respiratory, thoracic and mediastinal disorders",3,Not  Applicable,Not  Applicable,Not  Applicable,No
+161,25,33,34,Dyspnea,"Respiratory, thoracic and mediastinal disorders",3,Not  Applicable,Not  Applicable,Not  Applicable,No
+171,0,2,1201,Dry mouth,Gastrointestinal disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+171,0,2,1201,"Eye disorders - Other, specify",Eye disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+171,0,2,137,Nausea,Gastrointestinal disorders,1,Not  Applicable,TRAE,Not  Applicable,Yes
+171,0,4,137,Fatigue,General disorders and administration site conditions,1,Not  Applicable,Not  Applicable,TRAE,Yes
+171,0,4,75,Headache,Nervous system disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+171,0,26,1201,Hypothyroidism,Endocrine disorders,1,Not  Applicable,TRAE,Not  Applicable,Yes
+171,0,26,110,Platelet count decreased,Investigations,1,Not  Applicable,TRAE,Not  Applicable,Yes
+171,47,65,77,"Infections and infestations - Other, specify",Infections and infestations,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+171,47,68,116,Creatinine increased,Investigations,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+171,68,75,89,Diarrhea,Gastrointestinal disorders,1,Not  Applicable,Not  Applicable,TRAE,Yes
+171,89,103,116,Vomiting,Gastrointestinal disorders,1,Not  Applicable,TRAE,Not  Applicable,Yes
+171,89,110,113,Platelet count decreased,Investigations,2,Not  Applicable,TRAE,Not  Applicable,Yes
+171,89,110,221,Dysgeusia,Nervous system disorders,1,Not  Applicable,Not  Applicable,TRAE,Yes
+171,89,110,113,White blood cell decreased,Investigations,1,Not  Applicable,Not  Applicable,TRAE,Yes
+171,116,116,508,Alopecia,Skin and subcutaneous tissue disorders,1,Not  Applicable,Not  Applicable,TRAE,Yes
+171,221,223,334,Diarrhea,Gastrointestinal disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+171,285,310,1201,Hypertension,Vascular disorders,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+171,376,395,427,Diarrhea,Gastrointestinal disorders,2,Not  Applicable,Not  Applicable,TRAE,Yes
+171,376,424,427,Colitis,Gastrointestinal disorders,3,Not  Applicable,TRAE,Not  Applicable,Yes
+171,456,462,475,Diarrhea,Gastrointestinal disorders,2,Not  Applicable,Not  Applicable,TRAE,Yes
+171,456,474,475,Chest pain - cardiac,Cardiac disorders,3,Not  Applicable,Not  Applicable,Not  Applicable,No
+171,456,478,479,Arthralgia,Musculoskeletal and connective tissue disorders,2,Not  Applicable,TRAE,Not  Applicable,Yes
+181,0,3,11,Vomiting,Gastrointestinal disorders,2,Not  Applicable,Not  Applicable,TRAE,Yes
+191,0,10,21,Constipation,Gastrointestinal disorders,2,Not  Applicable,Not  Applicable,TRAE,Yes
+191,0,10,21,Dysgeusia,Nervous system disorders,1,Not  Applicable,Not  Applicable,TRAE,Yes
+191,0,10,219,Cough,"Respiratory, thoracic and mediastinal disorders",2,Not  Applicable,Not  Applicable,Not  Applicable,No
+191,0,10,21,Nausea,Gastrointestinal disorders,1,Not  Applicable,Not  Applicable,TRAE,Yes
+191,0,10,108,Anorexia,Metabolism and nutrition disorders,1,Not  Applicable,Not  Applicable,TRAE,Yes
+191,0,10,219,Fatigue,General disorders and administration site conditions,NA,Not  Applicable,Not  Applicable,TRAE,Yes
+191,21,10,219,Edema limbs,General disorders and administration site conditions,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+191,0,21,219,Dyspnea,"Respiratory, thoracic and mediastinal disorders",1,Not  Applicable,Not  Applicable,Not  Applicable,No
+201,0,0,21,Confusion,Psychiatric disorders,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+201,0,25,46,Alanine aminotransferase increased,Investigations,1,Not  Applicable,Not  Applicable,TRAE,Yes
+201,25,27,55,Vomiting,Gastrointestinal disorders,3,Not  Applicable,Not  Applicable,TRAE,Yes
+201,25,27,55,Diarrhea,Gastrointestinal disorders,3,Not  Applicable,Not  Applicable,TRAE,Yes
+201,25,28,32,Aspiration,"Respiratory, thoracic and mediastinal disorders",3,Not  Applicable,Not  Applicable,Not  Applicable,No
+201,46,46,56,Anemia,Blood and lymphatic system disorders,2,Not  Applicable,Not  Applicable,TRAE,Yes
+211,0,17,259,Creatinine increased,Investigations,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+211,17,18,525,Dizziness,Nervous system disorders,1,Not  Applicable,Not  Applicable,TRAE,Yes
+211,70,94,105,Creatinine increased,Investigations,2,Not  Applicable,Not  Applicable,TRAE,Yes
+211,70,105,525,Dysphagia,Gastrointestinal disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+211,105,126,525,Dysgeusia,Nervous system disorders,1,Not  Applicable,Not  Applicable,TRAE,Yes
+211,189,210,217,Creatinine increased,Investigations,1,Not  Applicable,Not  Applicable,TRAE,Yes
+211,189,210,217,Hyponatremia,Metabolism and nutrition disorders,3,Not  Applicable,Not  Applicable,Not  Applicable,No
+211,217,238,525,Constipation,Gastrointestinal disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+211,238,255,525,"Neoplasms benign, malignant and unspecified (incl cysts and polyps) - Other, specify","Neoplasms benign, malignant and unspecified (incl cysts and polyps)",1,Not  Applicable,Not  Applicable,Not  Applicable,No
+211,238,259,295,Hyponatremia,Metabolism and nutrition disorders,3,Not  Applicable,Not  Applicable,Not  Applicable,No
+211,238,259,316,Aspartate aminotransferase increased,Investigations,1,Not  Applicable,Not  Applicable,TRAE,Yes
+211,238,259,316,Alanine aminotransferase increased,Investigations,1,Not  Applicable,Not  Applicable,TRAE,Yes
+211,238,259,282,Alkaline phosphatase increased,Investigations,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+211,238,259,282,Blood bilirubin increased,Investigations,1,Not  Applicable,Not  Applicable,TRAE,Yes
+211,259,282,295,Blood bilirubin increased,Investigations,3,Not  Applicable,Not  Applicable,Not  Applicable,No
+211,259,282,400,Alkaline phosphatase increased,Investigations,3,Not  Applicable,Not  Applicable,Not  Applicable,No
+211,259,282,525,Weight loss,Investigations,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+211,259,290,301,Lung infection,Infections and infestations,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+211,259,292,295,Fever,General disorders and administration site conditions,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+211,259,295,300,Blood bilirubin increased,Investigations,4,Not  Applicable,Not  Applicable,Not  Applicable,No
+211,259,295,296,Hyponatremia,Metabolism and nutrition disorders,4,Not  Applicable,Not  Applicable,Not  Applicable,No
+211,259,295,310,Anemia,Blood and lymphatic system disorders,3,Not  Applicable,Not  Applicable,Not  Applicable,No
+211,259,296,301,Hyponatremia,Metabolism and nutrition disorders,3,Not  Applicable,Not  Applicable,Not  Applicable,No
+211,259,300,342,Blood bilirubin increased,Investigations,3,Not  Applicable,Not  Applicable,Not  Applicable,No
+211,342,342,370,Thromboembolic event,Vascular disorders,3,Not  Applicable,Not  Applicable,Not  Applicable,No
+211,342,342,356,Lung infection,Infections and infestations,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+211,342,342,525,Anemia,Blood and lymphatic system disorders,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+211,342,363,366,Dysphagia,Gastrointestinal disorders,3,Not  Applicable,Not  Applicable,Not  Applicable,No
+211,342,363,366,Fever,General disorders and administration site conditions,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+221,0,21,27,Fatigue,General disorders and administration site conditions,2,Not  Applicable,TRAE,Not  Applicable,Yes
+221,0,27,80,Confusion,Psychiatric disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+221,0,27,80,Pruritus,Skin and subcutaneous tissue disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+221,27,44,80,Constipation,Gastrointestinal disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+231,0,3,48,Anorexia,Metabolism and nutrition disorders,2,Not  Applicable,Not  Applicable,TRAE,Yes
+231,0,8,24,Dry eye,Eye disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+231,0,8,224,Dry mouth,Gastrointestinal disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+231,0,24,224,Dysgeusia,Nervous system disorders,1,Not  Applicable,Not  Applicable,TRAE,Yes
+231,24,48,160,Chills,General disorders and administration site conditions,1,Not  Applicable,TRAE,Not  Applicable,Yes
+231,24,48,160,Fever,General disorders and administration site conditions,1,Not  Applicable,TRAE,Not  Applicable,Yes
+231,48,76,335,Hypothyroidism,Endocrine disorders,2,Not  Applicable,TRAE,Not  Applicable,Yes
+231,97,111,136,Anorexia,Metabolism and nutrition disorders,2,Not  Applicable,Not  Applicable,TRAE,Yes
+231,97,118,136,"Infections and infestations - Other, specify",Infections and infestations,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+231,97,118,181,Creatinine increased,Investigations,1,Not  Applicable,Not  Applicable,TRAE,Yes
+231,136,146,181,Dyspnea,"Respiratory, thoracic and mediastinal disorders",2,Not  Applicable,Not  Applicable,Not  Applicable,No
+231,136,151,181,Fatigue,General disorders and administration site conditions,2,Not  Applicable,Not  Applicable,TRAE,Yes
+231,136,160,181,Hyperkalemia,Metabolism and nutrition disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+231,136,160,181,Hyponatremia,Metabolism and nutrition disorders,1,Not  Applicable,Not  Applicable,TRAE,Yes
+231,160,172,224,Diarrhea,Gastrointestinal disorders,2,Not  Applicable,Not  Applicable,TRAE,Yes
+231,160,181,202,Hyponatremia,Metabolism and nutrition disorders,3,Not  Applicable,Not  Applicable,Not  Applicable,No
+231,181,202,249,Anemia,Blood and lymphatic system disorders,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+231,249,272,335,Back pain,Musculoskeletal and connective tissue disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+231,318,323,324,Alanine aminotransferase increased,Investigations,4,Not  Applicable,Not  Applicable,TRAE,Yes
+231,318,323,324,Aspartate aminotransferase increased,Investigations,4,Not  Applicable,Not  Applicable,TRAE,Yes
+231,318,323,325,Creatinine increased,Investigations,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+231,318,324,330,Alanine aminotransferase increased,Investigations,3,Not  Applicable,Not  Applicable,TRAE,Yes
+231,318,324,325,Aspartate aminotransferase increased,Investigations,3,Not  Applicable,Not  Applicable,TRAE,Yes
+231,318,325,329,Creatinine increased,Investigations,3,Not  Applicable,Not  Applicable,Not  Applicable,No
+231,318,325,329,Aspartate aminotransferase increased,Investigations,1,Not  Applicable,Not  Applicable,TRAE,Yes
+231,318,327,333,Colitis,Gastrointestinal disorders,3,Not  Applicable,Not  Applicable,Not  Applicable,No
+231,318,327,333,Pericardial effusion,Cardiac disorders,4,Not  Applicable,Not  Applicable,Not  Applicable,No
+231,318,327,333,Pericardial tamponade,Cardiac disorders,4,Not  Applicable,Not  Applicable,Not  Applicable,No
+231,318,330,335,Alanine aminotransferase increased,Investigations,1,Not  Applicable,Not  Applicable,TRAE,Yes
+231,318,335,335,Death NOS,General disorders and administration site conditions,5,Not  Applicable,Not  Applicable,Not  Applicable,No
+241,0,10,187,Dyspepsia,Gastrointestinal disorders,2,Not  Applicable,TRAE,Not  Applicable,Yes
+241,0,28,38,Creatinine increased,Investigations,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+241,28,39,58,Superior vena cava syndrome,Vascular disorders,3,Not  Applicable,Not  Applicable,Not  Applicable,No
+251,0,7,114,Anorexia,Metabolism and nutrition disorders,1,Not  Applicable,TRAE,Not  Applicable,Yes
+251,0,8,138,Nausea,Gastrointestinal disorders,2,Not  Applicable,TRAE,Not  Applicable,Yes
+251,0,12,44,Vomiting,Gastrointestinal disorders,1,Not  Applicable,TRAE,Not  Applicable,Yes
+251,0,17,18,Diarrhea,Gastrointestinal disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+251,0,18,72,Constipation,Gastrointestinal disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+251,0,20,64,Anemia,Blood and lymphatic system disorders,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+251,0,20,44,Platelet count decreased,Investigations,1,Not  Applicable,Not  Applicable,TRAE,Yes
+251,0,20,44,Hyponatremia,Metabolism and nutrition disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+251,0,20,93,Hyperglycemia,Metabolism and nutrition disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+251,44,64,72,Anemia,Blood and lymphatic system disorders,3,Not  Applicable,Not  Applicable,TRAE,Yes
+251,93,107,418,Stomach pain,Gastrointestinal disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+251,93,114,418,Anorexia,Metabolism and nutrition disorders,2,Not  Applicable,Not  Applicable,TRAE,Yes
+251,114,138,418,Epistaxis,"Respiratory, thoracic and mediastinal disorders",1,Not  Applicable,Not  Applicable,TRAE,Yes
+251,138,156,418,Nail loss,Skin and subcutaneous tissue disorders,1,Not  Applicable,Not  Applicable,TRAE,Yes
+251,156,167,418,Non-cardiac chest pain,General disorders and administration site conditions,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+251,156,167,418,"Respiratory, thoracic and mediastinal disorders - Other, specify","Respiratory, thoracic and mediastinal disorders",1,Not  Applicable,Not  Applicable,TRAE,Yes
+251,177,198,205,"Infections and infestations - Other, specify",Infections and infestations,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+251,205,226,418,"Respiratory, thoracic and mediastinal disorders - Other, specify","Respiratory, thoracic and mediastinal disorders",1,Not  Applicable,Not  Applicable,Not  Applicable,No
+261,0,13,764,Vomiting,Gastrointestinal disorders,1,Not  Applicable,Not  Applicable,TRAE,Yes
+261,0,13,764,Anorexia,Metabolism and nutrition disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+261,0,13,764,Dry skin,Skin and subcutaneous tissue disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+261,0,21,764,Fatigue,General disorders and administration site conditions,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+261,22,28,30,Dizziness,Nervous system disorders,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+261,22,40,764,Dry mouth,Gastrointestinal disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+261,22,44,86,Platelet count decreased,Investigations,1,TRAE,Not  Applicable,Not  Applicable,Yes
+261,22,44,121,Anemia,Blood and lymphatic system disorders,1,TRAE,Not  Applicable,Not  Applicable,Yes
+261,44,50,764,Anxiety,Psychiatric disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+261,65,84,584,Dysgeusia,Nervous system disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+261,86,86,121,Bronchopulmonary hemorrhage,"Respiratory, thoracic and mediastinal disorders",2,Not  Applicable,Not  Applicable,Not  Applicable,No
+261,86,86,121,Nausea,Gastrointestinal disorders,2,TRAE,Not  Applicable,Not  Applicable,Yes
+261,86,113,114,Edema limbs,General disorders and administration site conditions,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+261,86,121,363,Alopecia,Skin and subcutaneous tissue disorders,1,Not  Applicable,TRAE,Not  Applicable,Yes
+261,121,142,764,Neuralgia,Nervous system disorders,1,Not  Applicable,Not  Applicable,TRAE,Yes
+261,142,161,184,Flu like symptoms,General disorders and administration site conditions,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+261,142,163,184,Anemia,Blood and lymphatic system disorders,1,Not  Applicable,Not  Applicable,TRAE,Yes
+261,142,163,184,Alkaline phosphatase increased,Investigations,2,Not  Applicable,Not  Applicable,TRAE,Yes
+261,142,163,184,Alanine aminotransferase increased,Investigations,1,Not  Applicable,Not  Applicable,TRAE,Yes
+261,142,163,184,Aspartate aminotransferase increased,Investigations,1,Not  Applicable,Not  Applicable,TRAE,Yes
+261,163,184,226,Anemia,Blood and lymphatic system disorders,2,Not  Applicable,Not  Applicable,TRAE,Yes
+261,184,205,764,Weight loss,Investigations,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+261,205,226,251,Anemia,Blood and lymphatic system disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+261,226,251,764,Pain,General disorders and administration site conditions,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+261,275,278,283,Diarrhea,Gastrointestinal disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+261,296,307,314,Flu like symptoms,General disorders and administration site conditions,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+261,363,380,381,Dizziness,Nervous system disorders,3,Not  Applicable,Not  Applicable,Not  Applicable,No
+261,363,380,381,Presyncope,Nervous system disorders,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+261,538,552,571,Productive cough,"Respiratory, thoracic and mediastinal disorders",2,Not  Applicable,Not  Applicable,Not  Applicable,No
+261,538,552,764,Dyspnea,"Respiratory, thoracic and mediastinal disorders",1,Not  Applicable,Not  Applicable,Not  Applicable,No
+261,559,572,574,Diarrhea,Gastrointestinal disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+261,559,573,580,Lung infection,Infections and infestations,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+261,559,575,575,Fever,General disorders and administration site conditions,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+261,559,580,580,Fever,General disorders and administration site conditions,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+261,559,580,587,Lung infection,Infections and infestations,3,Not  Applicable,Not  Applicable,Not  Applicable,No
+261,559,584,764,Dysgeusia,Nervous system disorders,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+261,559,584,601,Alanine aminotransferase increased,Investigations,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+261,559,584,601,Aspartate aminotransferase increased,Investigations,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+261,559,589,601,Wheezing,"Respiratory, thoracic and mediastinal disorders",2,Not  Applicable,Not  Applicable,Not  Applicable,No
+261,559,589,601,Productive cough,"Respiratory, thoracic and mediastinal disorders",2,Not  Applicable,Not  Applicable,Not  Applicable,No
+261,559,601,764,Esophageal pain,Gastrointestinal disorders,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+261,637,653,663,Lung infection,Infections and infestations,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+261,637,653,663,Dyspnea,"Respiratory, thoracic and mediastinal disorders",3,Not  Applicable,Not  Applicable,Not  Applicable,No
+261,700,705,708,Lung infection,Infections and infestations,3,Not  Applicable,Not  Applicable,Not  Applicable,No
+261,700,705,708,"General disorders and administration site conditions - Other, specify",General disorders and administration site conditions,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+271,0,2,21,Diarrhea,Gastrointestinal disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+271,0,4,621,Pain,General disorders and administration site conditions,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+271,0,4,621,Dry eye,Eye disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+271,0,8,107,Alopecia,Skin and subcutaneous tissue disorders,1,Not  Applicable,TRAE,Not  Applicable,Yes
+271,0,8,72,Anorexia,Metabolism and nutrition disorders,1,TRAE,Not  Applicable,Not  Applicable,Yes
+271,0,21,22,Fever,General disorders and administration site conditions,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+271,0,21,26,"Respiratory, thoracic and mediastinal disorders - Other, specify","Respiratory, thoracic and mediastinal disorders",1,Not  Applicable,Not  Applicable,Not  Applicable,No
+271,0,23,72,"Infections and infestations - Other, specify",Infections and infestations,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+271,0,26,33,Creatinine increased,Investigations,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+271,0,26,33,Anemia,Blood and lymphatic system disorders,1,Not  Applicable,Not  Applicable,TRAE,Yes
+271,0,26,33,Platelet count decreased,Investigations,1,Not  Applicable,TRAE,Not  Applicable,Yes
+271,0,26,54,Hypermagnesemia,Metabolism and nutrition disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+271,33,33,35,Diarrhea,Gastrointestinal disorders,1,Not  Applicable,Not  Applicable,TRAE,Yes
+271,33,36,41,Cough,"Respiratory, thoracic and mediastinal disorders",1,Not  Applicable,Not  Applicable,Not  Applicable,No
+271,33,36,621,Pain,General disorders and administration site conditions,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+271,33,54,69,Creatinine increased,Investigations,2,Not  Applicable,Not  Applicable,TRAE,Yes
+271,72,93,107,Creatinine increased,Investigations,2,Not  Applicable,Not  Applicable,TRAE,Yes
+271,72,107,621,Alopecia,Skin and subcutaneous tissue disorders,2,TRAE,Not  Applicable,Not  Applicable,Yes
+271,107,131,138,Sinusitis,Infections and infestations,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+271,107,148,278,Anemia,Blood and lymphatic system disorders,1,Not  Applicable,Not  Applicable,TRAE,Yes
+271,148,170,621,Nausea,Gastrointestinal disorders,1,Not  Applicable,TRAE,Not  Applicable,Yes
+271,170,170,621,Dry mouth,Gastrointestinal disorders,1,Not  Applicable,Not  Applicable,TRAE,Yes
+271,170,191,215,Hyponatremia,Metabolism and nutrition disorders,3,Not  Applicable,Not  Applicable,Not  Applicable,No
+271,194,215,236,Hyponatremia,Metabolism and nutrition disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+271,215,236,621,Pain,General disorders and administration site conditions,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+271,257,264,621,Gastroesophageal reflux disease,Gastrointestinal disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+271,257,266,621,"Skin and subcutaneous tissue disorders - Other, specify",Skin and subcutaneous tissue disorders,1,Not  Applicable,TRAE,Not  Applicable,Yes
+271,299,320,621,Thromboembolic event,Vascular disorders,3,Not  Applicable,Not  Applicable,Not  Applicable,No
+271,320,335,344,Pleural effusion,"Respiratory, thoracic and mediastinal disorders",3,Not  Applicable,Not  Applicable,Not  Applicable,No
+271,320,335,344,Atrial fibrillation,Cardiac disorders,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+281,0,0,145,Anorexia,Metabolism and nutrition disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+281,0,21,145,Weight loss,Investigations,2,Not  Applicable,Not  Applicable,TRAE,Yes
+281,0,23,26,Platelet count decreased,Investigations,2,TRAE,Not  Applicable,Not  Applicable,Yes
+281,0,23,100,Creatinine increased,Investigations,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+281,0,36,29,Vomiting,Gastrointestinal disorders,1,Not  Applicable,Not  Applicable,TRAE,Yes
+281,29,49,49,Pain in extremity,Musculoskeletal and connective tissue disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+281,29,50,145,Thromboembolic event,Vascular disorders,3,Not  Applicable,Not  Applicable,TRAE,Yes
+281,96,100,145,Pain,General disorders and administration site conditions,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+291,0,5,69,Nausea,Gastrointestinal disorders,1,Not  Applicable,Not  Applicable,TRAE,Yes
+291,0,8,318,Constipation,Gastrointestinal disorders,1,Not  Applicable,Not  Applicable,TRAE,Yes
+291,48,51,90,Vomiting,Gastrointestinal disorders,1,Not  Applicable,Not  Applicable,TRAE,Yes
+291,48,69,90,Nausea,Gastrointestinal disorders,2,Not  Applicable,Not  Applicable,TRAE,Yes
+291,48,69,154,Fatigue,General disorders and administration site conditions,2,Not  Applicable,Not  Applicable,TRAE,Yes
+291,48,69,111,Weight loss,Investigations,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+291,90,111,139,Weight loss,Investigations,2,Not  Applicable,Not  Applicable,TRAE,Yes
+291,90,111,154,Aspartate aminotransferase increased,Investigations,1,Not  Applicable,Not  Applicable,TRAE,Yes
+291,90,111,154,Alanine aminotransferase increased,Investigations,1,Not  Applicable,Not  Applicable,TRAE,Yes
+291,111,138,154,Non-cardiac chest pain,General disorders and administration site conditions,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+291,111,139,154,Dysgeusia,Nervous system disorders,1,Not  Applicable,TRAE,Not  Applicable,Yes
+291,139,139,154,Weight loss,Investigations,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+301,0,2,59,Fatigue,General disorders and administration site conditions,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+301,0,2,201,Dyspnea,"Respiratory, thoracic and mediastinal disorders",1,Not  Applicable,Not  Applicable,Not  Applicable,No
+301,0,2,35,Edema limbs,General disorders and administration site conditions,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+301,0,2,201,Dysphagia,Gastrointestinal disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+301,0,2,59,Nausea,Gastrointestinal disorders,1,TRAE,Not  Applicable,Not  Applicable,Yes
+301,0,2,201,Hearing impaired,Ear and labyrinth disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+301,0,2,201,Constipation,Gastrointestinal disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+301,0,2,201,Pain,General disorders and administration site conditions,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+301,0,35,201,Anorexia,Metabolism and nutrition disorders,1,Not  Applicable,Not  Applicable,TRAE,Yes
+301,35,48,87,Generalized muscle weakness,Musculoskeletal and connective tissue disorders,3,Not  Applicable,Not  Applicable,Not  Applicable,No
+301,35,57,201,Vomiting,Gastrointestinal disorders,2,TRAE,Not  Applicable,Not  Applicable,Yes
+301,35,59,201,Nausea,Gastrointestinal disorders,2,TRAE,Not  Applicable,Not  Applicable,Yes
+301,35,59,201,Fatigue,General disorders and administration site conditions,2,Not  Applicable,Not  Applicable,TRAE,Yes
+301,35,59,201,Weight loss,Investigations,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+301,35,66,70,Dehydration,Metabolism and nutrition disorders,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+301,35,66,70,Dyspnea,"Respiratory, thoracic and mediastinal disorders",3,Not  Applicable,Not  Applicable,Not  Applicable,No
+301,59,66,70,Dehydration,Metabolism and nutrition disorders,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+301,59,66,70,Dyspnea,"Respiratory, thoracic and mediastinal disorders",3,Not  Applicable,Not  Applicable,Not  Applicable,No
+301,35,79,85,Bronchopulmonary hemorrhage,"Respiratory, thoracic and mediastinal disorders",2,Not  Applicable,Not  Applicable,Not  Applicable,No
+301,35,79,55,Hyponatremia,Metabolism and nutrition disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+301,59,79,85,Bronchopulmonary hemorrhage,"Respiratory, thoracic and mediastinal disorders",2,Not  Applicable,Not  Applicable,Not  Applicable,No
+301,59,79,55,Hyponatremia,Metabolism and nutrition disorders,1,Not  Applicable,Not  Applicable,Not  Applicable,No
+301,59,79,87,Generalized muscle weakness,Musculoskeletal and connective tissue disorders,3,Not  Applicable,Not  Applicable,Not  Applicable,No
+311,0,12,27,Lung infection,Infections and infestations,3,Not  Applicable,Not  Applicable,Not  Applicable,No
+311,0,12,40,Back pain,Musculoskeletal and connective tissue disorders,3,Not  Applicable,Not  Applicable,Not  Applicable,No
+311,0,12,40,Pleural effusion,"Respiratory, thoracic and mediastinal disorders",2,Not  Applicable,Not  Applicable,Not  Applicable,No
+311,0,12,40,Atelectasis,"Respiratory, thoracic and mediastinal disorders",3,Not  Applicable,Not  Applicable,Not  Applicable,No
+311,0,20,40,Pneumothorax,"Respiratory, thoracic and mediastinal disorders",2,Not  Applicable,Not  Applicable,Not  Applicable,No
+311,0,30,40,Death NOS,General disorders and administration site conditions,5,Not  Applicable,Not  Applicable,Not  Applicable,No
+321,0,10,12,Pain,General disorders and administration site conditions,2,Not  Applicable,Not  Applicable,Not  Applicable,No
+321,21,22,25,Localized edema,General disorders and administration site conditions,3,Not  Applicable,Not  Applicable,Not  Applicable,No

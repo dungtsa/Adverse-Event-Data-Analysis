@@ -1,0 +1,609 @@
+id,time_treatment,time_onset,time_resolved,toxicity_ind,toxicity_category,grade,attribution_definite,attribution_probable,attribution_possible,AE_Trt
+11,0,0,28,Gastroesophageal reflux disease,Gastrointestinal disorders,1,NA,TRAE,NA,Yes
+11,56,56,119,Non-cardiac chest pain,General disorders and administration site conditions,1,NA,NA,NA,No
+11,56,56,84,Dyspnea,"Respiratory, thoracic and mediastinal disorders",1,NA,NA,NA,No
+11,56,56,119,Productive cough,"Respiratory, thoracic and mediastinal disorders",2,NA,NA,NA,No
+11,56,84,119,Generalized muscle weakness,Musculoskeletal and connective tissue disorders,2,NA,NA,TRAE,Yes
+11,56,84,119,Nausea,Gastrointestinal disorders,1,NA,NA,TRAE,Yes
+11,56,84,119,Dyspnea,"Respiratory, thoracic and mediastinal disorders",2,NA,TRAE,NA,Yes
+21,0,28,867,"Ear and labyrinth disorders - Other, specify",Ear and labyrinth disorders,2,NA,NA,NA,No
+21,28,28,56,Anemia,Blood and lymphatic system disorders,1,NA,NA,NA,No
+21,28,37,867,Gynecomastia,Reproductive system and breast disorders,2,NA,NA,NA,No
+21,56,56,867,Hoarseness,"Respiratory, thoracic and mediastinal disorders",1,NA,NA,NA,No
+21,28,56,867,Peripheral sensory neuropathy,Nervous system disorders,1,NA,NA,NA,No
+21,28,56,867,Peripheral sensory neuropathy,Nervous system disorders,2,NA,NA,NA,No
+21,86,86,867,Dry mouth,Gastrointestinal disorders,1,NA,NA,NA,No
+21,168,196,867,Fatigue,General disorders and administration site conditions,1,NA,NA,TRAE,Yes
+21,168,196,867,Depression,Psychiatric disorders,1,NA,NA,NA,No
+21,196,196,867,Dry skin,Skin and subcutaneous tissue disorders,1,NA,NA,NA,No
+21,224,224,867,Neuralgia,Nervous system disorders,1,NA,NA,NA,No
+31,56,56,84,Diarrhea,Gastrointestinal disorders,1,NA,NA,NA,No
+31,84,112,140,Bruising,"Injury, poisoning and procedural complications",1,NA,NA,NA,No
+31,84,112,140,Dyspnea,"Respiratory, thoracic and mediastinal disorders",1,NA,NA,NA,No
+31,84,112,140,Cough,"Respiratory, thoracic and mediastinal disorders",1,NA,NA,NA,No
+41,0,2,3,Gastroesophageal reflux disease,Gastrointestinal disorders,1,NA,NA,TRAE,Yes
+41,0,4,5,Chills,General disorders and administration site conditions,1,NA,NA,NA,No
+41,0,4,5,Non-cardiac chest pain,General disorders and administration site conditions,1,NA,NA,NA,No
+41,0,4,5,Back pain,Musculoskeletal and connective tissue disorders,1,NA,NA,NA,No
+41,27,35,49,Lung infection,Infections and infestations,2,NA,NA,NA,No
+41,27,41,92,Back pain,Musculoskeletal and connective tissue disorders,1,NA,NA,NA,No
+41,27,51,92,Fatigue,General disorders and administration site conditions,2,NA,NA,NA,No
+41,55,55,92,Anemia,Blood and lymphatic system disorders,2,NA,NA,NA,No
+41,92,98,234,"Respiratory, thoracic and mediastinal disorders - Other, specify","Respiratory, thoracic and mediastinal disorders",2,NA,NA,NA,No
+41,146,146,234,Dyspnea,"Respiratory, thoracic and mediastinal disorders",2,NA,NA,NA,No
+41,146,146,188,Anemia,Blood and lymphatic system disorders,2,NA,NA,NA,No
+41,146,146,234,Dyspnea,"Respiratory, thoracic and mediastinal disorders",2,NA,NA,NA,No
+51,0,28,221,Anemia,Blood and lymphatic system disorders,1,NA,NA,NA,No
+51,0,28,NA,Rash maculo-papular,Skin and subcutaneous tissue disorders,1,NA,NA,NA,No
+51,0,28,NA,Constipation,Gastrointestinal disorders,1,NA,NA,NA,No
+51,0,28,NA,"Investigations - Other, specify",Investigations,1,NA,NA,NA,No
+51,28,53,337,Weight loss,Investigations,1,NA,NA,NA,No
+51,53,53,418,Hyperkalemia,Metabolism and nutrition disorders,1,NA,NA,NA,No
+51,53,53,418,Hypokalemia,Metabolism and nutrition disorders,1,NA,NA,NA,No
+51,168,177,NA,Dry mouth,Gastrointestinal disorders,1,NA,NA,NA,No
+51,221,221,865,Fatigue,General disorders and administration site conditions,1,NA,NA,NA,No
+51,221,221,865,Fatigue,General disorders and administration site conditions,1,NA,NA,NA,No
+51,252,266,308,Blurred vision,Eye disorders,1,NA,NA,NA,No
+51,308,308,673,Diarrhea,Gastrointestinal disorders,1,NA,NA,NA,No
+51,364,364,418,"Investigations - Other, specify",Investigations,1,NA,NA,NA,No
+51,392,392,420,Hypertension,Vascular disorders,2,NA,NA,NA,No
+51,392,392,NA,"Endocrine disorders - Other, specify",Endocrine disorders,2,NA,NA,NA,No
+51,392,392,NA,"Eye disorders - Other, specify",Eye disorders,1,NA,NA,NA,No
+51,469,469,504,Neutrophil count decreased,Investigations,1,NA,NA,NA,No
+51,532,532,539,Lipase increased,Investigations,3,NA,TRAE,NA,Yes
+51,532,532,539,Serum amylase increased,Investigations,1,NA,TRAE,NA,Yes
+51,585,585,672,Lipase increased,Investigations,1,NA,TRAE,NA,Yes
+51,585,599,600,Diarrhea,Gastrointestinal disorders,1,NA,NA,NA,No
+51,585,608,609,Diarrhea,Gastrointestinal disorders,1,NA,NA,NA,No
+51,616,616,949,"Gastrointestinal disorders - Other, specify",Gastrointestinal disorders,1,NA,NA,NA,No
+51,672,697,702,Lipase increased,Investigations,3,NA,TRAE,NA,Yes
+51,672,703,728,Lipase increased,Investigations,1,NA,TRAE,NA,Yes
+51,781,781,808,Lipase increased,Investigations,1,NA,TRAE,NA,Yes
+51,781,783,784,"Musculoskeletal and connective tissue disorder -  Other, specify",Musculoskeletal and connective tissue disorders,1,NA,NA,NA,No
+51,781,786,787,Diarrhea,Gastrointestinal disorders,1,NA,NA,NA,No
+51,781,789,793,Rash maculo-papular,Skin and subcutaneous tissue disorders,1,NA,NA,NA,No
+51,781,806,807,"Musculoskeletal and connective tissue disorder -  Other, specify",Musculoskeletal and connective tissue disorders,2,NA,NA,NA,No
+51,809,809,837,Lipase increased,Investigations,2,NA,NA,TRAE,Yes
+51,809,833,837,"Musculoskeletal and connective tissue disorder -  Other, specify",Musculoskeletal and connective tissue disorders,1,NA,NA,NA,No
+51,809,837,850,Lipase increased,Investigations,3,NA,NA,TRAE,Yes
+51,837,851,891,Lipase increased,Investigations,1,NA,TRAE,NA,Yes
+51,865,866,892,Diarrhea,Gastrointestinal disorders,1,NA,NA,NA,No
+51,865,892,899,Lipase increased,Investigations,3,NA,NA,NA,No
+51,865,892,900,Serum amylase increased,Investigations,1,NA,NA,NA,No
+51,865,900,949,Lipase increased,Investigations,1,NA,NA,NA,No
+51,921,927,1618,Diarrhea,Gastrointestinal disorders,1,NA,NA,NA,No
+51,921,949,976,Neutrophil count decreased,Investigations,2,NA,NA,NA,No
+51,949,976,1029,Lipase increased,Investigations,2,NA,NA,NA,No
+51,1005,1011,1020,Flu like symptoms,General disorders and administration site conditions,2,NA,NA,NA,No
+51,1005,1030,1338,Lipase increased,Investigations,1,NA,NA,NA,No
+51,1005,1030,NA,Blurred vision,Eye disorders,1,NA,NA,NA,No
+51,1282,1282,1338,Neutrophil count decreased,Investigations,2,NA,NA,NA,No
+51,1282,1288,1294,Rash maculo-papular,Skin and subcutaneous tissue disorders,1,NA,NA,TRAE,Yes
+51,1339,1339,1366,Lipase increased,Investigations,3,NA,NA,NA,No
+51,1339,1339,1366,Neutrophil count decreased,Investigations,1,NA,NA,NA,No
+51,1394,1394,NA,Lipase increased,Investigations,1,NA,NA,NA,No
+51,1421,1438,1445,Cough,"Respiratory, thoracic and mediastinal disorders",1,NA,NA,NA,No
+51,1450,1450,1478,Headache,Nervous system disorders,1,NA,NA,NA,No
+51,1450,1453,1458,Flu like symptoms,General disorders and administration site conditions,1,NA,NA,NA,No
+51,1478,1478,1506,Anorexia,Metabolism and nutrition disorders,1,NA,NA,NA,No
+51,1674,1674,NA,Cough,"Respiratory, thoracic and mediastinal disorders",1,NA,NA,NA,No
+51,1674,1674,NA,Fatigue,General disorders and administration site conditions,1,NA,NA,NA,No
+51,1730,1730,1757,Lipase increased,Investigations,1,NA,NA,NA,No
+61,28,28,NA,"Gastrointestinal disorders - Other, specify",Gastrointestinal disorders,1,NA,NA,TRAE,Yes
+61,85,108,NA,Back pain,Musculoskeletal and connective tissue disorders,2,NA,NA,NA,No
+61,85,113,NA,Gastroesophageal reflux disease,Gastrointestinal disorders,1,NA,TRAE,NA,Yes
+61,113,141,NA,Pain in extremity,Musculoskeletal and connective tissue disorders,2,NA,NA,NA,No
+61,141,155,NA,Hoarseness,"Respiratory, thoracic and mediastinal disorders",1,NA,NA,NA,No
+61,169,186,200,Urinary tract infection,Infections and infestations,2,NA,NA,NA,No
+61,186,186,200,Fatigue,General disorders and administration site conditions,2,NA,NA,NA,No
+61,169,189,200,Nausea,Gastrointestinal disorders,2,NA,NA,NA,No
+61,169,189,200,Anorexia,Metabolism and nutrition disorders,3,NA,NA,NA,No
+61,169,189,200,Generalized muscle weakness,Musculoskeletal and connective tissue disorders,2,NA,NA,NA,No
+61,169,189,200,Dizziness,Nervous system disorders,1,NA,NA,NA,No
+61,169,189,200,Hallucinations,Psychiatric disorders,1,NA,NA,NA,No
+61,169,189,200,Thromboembolic event,Vascular disorders,2,NA,NA,NA,No
+71,0,28,105,Nausea,Gastrointestinal disorders,1,NA,NA,TRAE,Yes
+71,0,28,NA,Anorexia,Metabolism and nutrition disorders,1,NA,NA,NA,No
+71,28,56,NA,Gastroesophageal reflux disease,Gastrointestinal disorders,2,NA,TRAE,NA,Yes
+71,84,61,192,Dyspnea,"Respiratory, thoracic and mediastinal disorders",1,NA,NA,NA,No
+71,56,84,105,Fatigue,General disorders and administration site conditions,1,NA,NA,TRAE,Yes
+71,84,105,NA,Nausea,Gastrointestinal disorders,2,NA,NA,TRAE,Yes
+71,84,105,NA,Fatigue,General disorders and administration site conditions,2,NA,NA,TRAE,Yes
+71,84,105,NA,Pain,General disorders and administration site conditions,1,NA,NA,TRAE,Yes
+71,193,137,251,Flank pain,Musculoskeletal and connective tissue disorders,2,NA,NA,NA,No
+71,193,166,251,Generalized muscle weakness,Musculoskeletal and connective tissue disorders,1,NA,NA,NA,No
+71,193,180,251,Non-cardiac chest pain,General disorders and administration site conditions,2,NA,NA,NA,No
+71,193,193,251,Pain,General disorders and administration site conditions,1,NA,NA,NA,No
+71,193,193,251,Dyspnea,"Respiratory, thoracic and mediastinal disorders",2,NA,NA,NA,No
+71,193,193,137,Edema limbs,General disorders and administration site conditions,2,NA,NA,NA,No
+81,0,10,60,Non-cardiac chest pain,General disorders and administration site conditions,2,NA,NA,NA,No
+81,0,28,60,Nausea,Gastrointestinal disorders,1,NA,NA,TRAE,Yes
+81,28,53,60,Fatigue,General disorders and administration site conditions,1,NA,NA,NA,No
+81,28,53,60,Back pain,Musculoskeletal and connective tissue disorders,1,NA,NA,NA,No
+91,0,1,6,Non-cardiac chest pain,General disorders and administration site conditions,3,NA,NA,NA,No
+91,0,1,6,Atrial fibrillation,Cardiac disorders,2,NA,NA,NA,No
+101,0,10,300,"Blood and lymphatic system disorders - Other, specify",Blood and lymphatic system disorders,1,NA,NA,NA,No
+101,0,28,300,Insomnia,Psychiatric disorders,1,NA,NA,NA,No
+101,0,28,300,Fatigue,General disorders and administration site conditions,1,NA,NA,NA,No
+101,0,28,300,Dyspnea,"Respiratory, thoracic and mediastinal disorders",1,NA,NA,NA,No
+101,57,50,300,Skin infection,Infections and infestations,1,NA,NA,TRAE,Yes
+101,28,55,300,Rash maculo-papular,Skin and subcutaneous tissue disorders,1,NA,NA,TRAE,Yes
+101,55,83,86,Nausea,Gastrointestinal disorders,3,NA,NA,NA,No
+101,55,83,86,Vomiting,Gastrointestinal disorders,3,NA,NA,NA,No
+101,55,83,86,Vomiting,Gastrointestinal disorders,3,NA,NA,NA,No
+111,8,28,550,Productive cough,"Respiratory, thoracic and mediastinal disorders",1,NA,NA,NA,No
+111,28,52,550,Headache,Nervous system disorders,1,NA,NA,NA,No
+111,52,52,550,Peripheral sensory neuropathy,Nervous system disorders,1,NA,NA,NA,No
+111,80,80,550,Nasal congestion,"Respiratory, thoracic and mediastinal disorders",1,NA,NA,NA,No
+111,80,80,550,Postnasal drip,"Respiratory, thoracic and mediastinal disorders",1,NA,NA,NA,No
+111,80,80,550,Dyspnea,"Respiratory, thoracic and mediastinal disorders",1,NA,NA,NA,No
+111,80,80,550,"Investigations - Other, specify",Investigations,1,NA,NA,NA,No
+111,80,80,550,Chills,General disorders and administration site conditions,1,NA,NA,TRAE,Yes
+111,80,80,550,Anorexia,Metabolism and nutrition disorders,1,NA,NA,NA,No
+111,80,80,550,Nausea,Gastrointestinal disorders,1,NA,NA,NA,No
+111,108,134,550,Cough,"Respiratory, thoracic and mediastinal disorders",2,NA,NA,NA,No
+111,108,134,550,Headache,Nervous system disorders,2,NA,NA,NA,No
+121,0,20,26,Abdominal pain,Gastrointestinal disorders,3,NA,NA,NA,No
+121,0,20,26,Dysphagia,Gastrointestinal disorders,3,NA,NA,NA,No
+121,0,20,26,Dyspnea,"Respiratory, thoracic and mediastinal disorders",2,NA,NA,NA,No
+121,0,20,23,Cough,"Respiratory, thoracic and mediastinal disorders",2,NA,NA,NA,No
+131,0,28,28,Vomiting,Gastrointestinal disorders,2,NA,NA,TRAE,Yes
+131,56,56,480,Dry mouth,Gastrointestinal disorders,1,NA,NA,NA,No
+131,56,56,480,Rash maculo-papular,Skin and subcutaneous tissue disorders,1,NA,NA,NA,No
+131,148,148,480,Insomnia,Psychiatric disorders,1,NA,NA,NA,No
+141,0,3,3,Nausea,Gastrointestinal disorders,1,NA,NA,NA,No
+141,0,10,NA,Pain in extremity,Musculoskeletal and connective tissue disorders,1,NA,NA,NA,No
+141,0,15,NA,Peripheral sensory neuropathy,Nervous system disorders,1,NA,NA,NA,No
+141,0,24,NA,Edema limbs,General disorders and administration site conditions,1,NA,NA,NA,No
+141,43,43,83,Rash maculo-papular,Skin and subcutaneous tissue disorders,2,TRAE,NA,NA,Yes
+141,27,50,NA,Pneumonitis,"Respiratory, thoracic and mediastinal disorders",3,TRAE,NA,NA,Yes
+141,51,51,54,Buttock pain,Musculoskeletal and connective tissue disorders,1,NA,NA,NA,No
+151,28,36,56,Anxiety,Psychiatric disorders,1,NA,NA,NA,No
+151,28,49,56,Pleural effusion,"Respiratory, thoracic and mediastinal disorders",2,NA,NA,NA,No
+151,28,49,56,Lung infection,Infections and infestations,2,NA,NA,NA,No
+151,28,52,56,Dyspnea,"Respiratory, thoracic and mediastinal disorders",3,NA,NA,NA,No
+151,28,52,56,Back pain,Musculoskeletal and connective tissue disorders,2,NA,NA,NA,No
+151,28,52,56,Edema limbs,General disorders and administration site conditions,1,NA,NA,NA,No
+151,28,52,56,Diarrhea,Gastrointestinal disorders,1,NA,NA,NA,No
+151,28,52,56,Hypokalemia,Metabolism and nutrition disorders,1,NA,NA,NA,No
+151,56,56,56,Death NOS,General disorders and administration site conditions,5,NA,NA,NA,No
+161,0,-17,NA,Back pain,Musculoskeletal and connective tissue disorders,1,NA,NA,NA,No
+161,0,-17,NA,Depression,Psychiatric disorders,1,NA,NA,NA,No
+161,0,-17,NA,Hypertension,Vascular disorders,1,NA,NA,NA,No
+161,0,-17,-6,Pleural effusion,"Respiratory, thoracic and mediastinal disorders",3,NA,NA,NA,No
+161,0,-17,NA,"Blood and lymphatic system disorders - Other, specify",Blood and lymphatic system disorders,1,NA,NA,NA,No
+161,0,-17,-6,Cough,"Respiratory, thoracic and mediastinal disorders",2,NA,NA,NA,No
+161,0,-17,NA,Dyspnea,"Respiratory, thoracic and mediastinal disorders",1,NA,NA,NA,No
+161,0,-17,NA,Cough,"Respiratory, thoracic and mediastinal disorders",1,NA,NA,NA,No
+161,0,-17,NA,Hypothyroidism,Endocrine disorders,1,NA,NA,NA,No
+171,0,5,9,Nausea,Gastrointestinal disorders,2,NA,TRAE,NA,Yes
+171,0,5,54,Diarrhea,Gastrointestinal disorders,1,NA,TRAE,NA,Yes
+171,0,5,54,Headache,Nervous system disorders,2,NA,TRAE,NA,Yes
+171,0,5,54,Constipation,Gastrointestinal disorders,1,NA,TRAE,NA,Yes
+171,0,19,20,Vomiting,Gastrointestinal disorders,1,NA,TRAE,NA,Yes
+181,0,28,169,Fatigue,General disorders and administration site conditions,1,NA,TRAE,NA,Yes
+181,0,28,169,Nausea,Gastrointestinal disorders,1,NA,TRAE,NA,Yes
+181,28,57,NA,Dyspnea,"Respiratory, thoracic and mediastinal disorders",1,NA,NA,NA,No
+181,28,57,169,Fatigue,General disorders and administration site conditions,1,NA,NA,NA,No
+181,57,75,80,"Investigations - Other, specify",Investigations,2,NA,NA,NA,No
+181,89,89,NA,"Investigations - Other, specify",Investigations,2,NA,NA,NA,No
+181,109,109,127,Pneumonitis,"Respiratory, thoracic and mediastinal disorders",3,TRAE,NA,NA,Yes
+181,169,169,NA,Pneumonitis,"Respiratory, thoracic and mediastinal disorders",3,TRAE,NA,NA,Yes
+191,0,7,11,Fatigue,General disorders and administration site conditions,4,NA,NA,NA,No
+191,0,11,11,Death NOS,General disorders and administration site conditions,5,NA,NA,NA,No
+201,0,1,NA,Insomnia,Psychiatric disorders,1,NA,NA,TRAE,Yes
+201,8,8,NA,Hematuria,Renal and urinary disorders,1,TRAE,NA,NA,Yes
+201,14,14,NA,Rectal hemorrhage,Gastrointestinal disorders,1,NA,NA,NA,No
+201,14,14,53,Lipase increased,Investigations,1,TRAE,NA,NA,Yes
+201,28,28,NA,Dizziness,Nervous system disorders,1,NA,NA,NA,No
+201,28,54,67,Alanine aminotransferase increased,Investigations,3,TRAE,NA,NA,Yes
+201,28,54,56,Aspartate aminotransferase increased,Investigations,3,TRAE,NA,NA,Yes
+201,54,54,64,Cough,"Respiratory, thoracic and mediastinal disorders",2,NA,NA,NA,No
+201,28,54,110,Lipase increased,Investigations,2,TRAE,NA,NA,Yes
+201,54,54,NA,Fever,General disorders and administration site conditions,1,NA,NA,NA,No
+201,54,54,NA,Malaise,General disorders and administration site conditions,1,NA,NA,NA,No
+201,54,54,67,Hepatitis viral,Infections and infestations,3,NA,NA,TRAE,Yes
+201,28,56,68,Aspartate aminotransferase increased,Investigations,1,TRAE,NA,NA,Yes
+201,28,56,111,Alkaline phosphatase increased,Investigations,1,NA,NA,NA,No
+201,102,111,168,Lipase increased,Investigations,1,TRAE,NA,NA,Yes
+201,168,185,NA,Back pain,Musculoskeletal and connective tissue disorders,2,NA,NA,NA,No
+201,168,196,200,Alanine aminotransferase increased,Investigations,2,TRAE,NA,NA,Yes
+201,168,196,206,Aspartate aminotransferase increased,Investigations,1,TRAE,NA,NA,Yes
+201,196,196,199,"Gastrointestinal disorders - Other, specify",Gastrointestinal disorders,2,NA,NA,NA,No
+201,168,197,199,Confusion,Psychiatric disorders,3,NA,NA,NA,No
+201,168,197,199,"Renal and urinary disorders - Other, specify",Renal and urinary disorders,3,NA,NA,NA,No
+201,198,198,228,Urinary tract infection,Infections and infestations,1,NA,NA,NA,No
+201,201,201,206,Alanine aminotransferase increased,Investigations,1,NA,NA,NA,No
+201,201,207,212,Aspartate aminotransferase increased,Investigations,2,TRAE,NA,NA,Yes
+201,201,207,212,Alanine aminotransferase increased,Investigations,3,TRAE,NA,NA,Yes
+201,201,213,223,Alanine aminotransferase increased,Investigations,1,TRAE,NA,NA,Yes
+201,201,213,223,Aspartate aminotransferase increased,Investigations,1,TRAE,NA,NA,Yes
+201,201,213,214,Transient ischemic attacks,Nervous system disorders,1,NA,NA,TRAE,Yes
+201,229,229,257,Alanine aminotransferase increased,Investigations,1,TRAE,NA,NA,Yes
+201,229,229,257,Aspartate aminotransferase increased,Investigations,1,TRAE,NA,NA,Yes
+201,257,273,318,Anemia,Blood and lymphatic system disorders,3,NA,NA,NA,No
+201,257,273,294,Hypocalcemia,Metabolism and nutrition disorders,1,NA,NA,NA,No
+201,294,294,317,"General disorders and administration site conditions - Other, specify",General disorders and administration site conditions,2,NA,NA,NA,No
+201,294,294,317,"General disorders and administration site conditions - Other, specify",General disorders and administration site conditions,2,NA,NA,NA,No
+201,297,297,317,Fever,General disorders and administration site conditions,1,NA,NA,NA,No
+201,315,315,NA,Pleural effusion,"Respiratory, thoracic and mediastinal disorders",2,NA,NA,NA,No
+211,0,0,913,Nausea,Gastrointestinal disorders,2,NA,NA,TRAE,Yes
+211,56,56,913,Anorexia,Metabolism and nutrition disorders,2,NA,NA,TRAE,Yes
+211,56,56,NA,Fatigue,General disorders and administration site conditions,1,NA,NA,TRAE,Yes
+211,56,56,NA,Diarrhea,Gastrointestinal disorders,1,NA,NA,TRAE,Yes
+211,112,140,NA,Allergic rhinitis,"Respiratory, thoracic and mediastinal disorders",1,NA,NA,NA,No
+211,112,140,NA,Vaginal discharge,Reproductive system and breast disorders,1,NA,NA,NA,No
+211,167,167,NA,"Endocrine disorders - Other, specify",Endocrine disorders,1,NA,NA,TRAE,Yes
+211,196,196,NA,Constipation,Gastrointestinal disorders,1,NA,NA,NA,No
+211,196,196,NA,Chills,General disorders and administration site conditions,1,NA,NA,NA,No
+211,355,355,384,Flu like symptoms,General disorders and administration site conditions,1,NA,NA,NA,No
+211,467,485,517,Vaginal hemorrhage,Reproductive system and breast disorders,2,NA,NA,NA,No
+211,495,523,545,Pruritus,Skin and subcutaneous tissue disorders,1,NA,NA,NA,No
+211,495,523,913,Fever,General disorders and administration site conditions,1,NA,NA,NA,No
+211,495,523,NA,Amnesia,Nervous system disorders,1,NA,NA,NA,No
+211,495,523,NA,Gait disturbance,General disorders and administration site conditions,1,NA,NA,NA,No
+211,523,545,NA,Dry mouth,Gastrointestinal disorders,1,NA,NA,NA,No
+211,545,545,NA,Constipation,Gastrointestinal disorders,1,NA,NA,NA,No
+211,545,545,NA,Diarrhea,Gastrointestinal disorders,1,NA,NA,NA,No
+211,637,637,NA,Pruritus,Skin and subcutaneous tissue disorders,1,NA,NA,NA,No
+211,697,720,749,GGT increased,Investigations,1,NA,NA,NA,No
+211,720,720,NA,Portal vein thrombosis,Hepatobiliary disorders,2,NA,NA,NA,No
+211,720,749,781,Lipase increased,Investigations,1,NA,NA,TRAE,Yes
+211,749,781,812,GGT increased,Investigations,1,NA,NA,TRAE,Yes
+211,781,812,818,Lipase increased,Investigations,1,NA,NA,TRAE,Yes
+211,781,812,NA,Dizziness,Nervous system disorders,2,NA,NA,NA,No
+211,819,819,867,Lipase increased,Investigations,4,NA,NA,TRAE,Yes
+211,867,867,NA,Arthritis,Musculoskeletal and connective tissue disorders,1,NA,NA,TRAE,Yes
+211,959,959,NA,Weight loss,Investigations,1,NA,NA,NA,No
+221,-4,-4,NA,Constipation,Gastrointestinal disorders,1,NA,NA,NA,No
+221,-4,-4,NA,Non-cardiac chest pain,General disorders and administration site conditions,1,NA,NA,NA,No
+221,-4,-4,NA,Cough,"Respiratory, thoracic and mediastinal disorders",1,NA,NA,NA,No
+221,-4,-4,NA,Lipohypertrophy,Skin and subcutaneous tissue disorders,1,NA,NA,NA,No
+221,0,28,56,Dyspnea,"Respiratory, thoracic and mediastinal disorders",1,NA,NA,NA,No
+221,0,28,NA,Cough,"Respiratory, thoracic and mediastinal disorders",2,NA,NA,NA,No
+221,0,28,56,Nausea,Gastrointestinal disorders,2,NA,NA,TRAE,Yes
+221,0,28,56,Anorexia,Metabolism and nutrition disorders,2,NA,NA,NA,No
+221,0,28,56,Dehydration,Metabolism and nutrition disorders,2,NA,NA,NA,No
+221,0,28,56,"Respiratory, thoracic and mediastinal disorders - Other, specify","Respiratory, thoracic and mediastinal disorders",2,NA,NA,NA,No
+231,0,3,9,Dyspnea,"Respiratory, thoracic and mediastinal disorders",2,NA,NA,NA,No
+231,0,3,9,Pneumothorax,"Respiratory, thoracic and mediastinal disorders",3,NA,NA,NA,No
+231,0,3,9,Alkaline phosphatase increased,Investigations,2,NA,NA,NA,No
+231,0,3,9,Cough,"Respiratory, thoracic and mediastinal disorders",1,NA,NA,NA,No
+231,0,3,9,Headache,Nervous system disorders,1,NA,NA,NA,No
+231,0,3,9,Nausea,Gastrointestinal disorders,1,NA,NA,TRAE,Yes
+231,0,3,9,Sore throat,"Respiratory, thoracic and mediastinal disorders",1,NA,NA,NA,No
+231,0,4,9,Anxiety,Psychiatric disorders,2,NA,NA,NA,No
+231,0,4,9,Pneumothorax,"Respiratory, thoracic and mediastinal disorders",3,NA,NA,NA,No
+231,0,4,9,Lung infection,Infections and infestations,2,NA,NA,NA,No
+231,0,4,9,Alkaline phosphatase increased,Investigations,2,NA,NA,NA,No
+231,0,5,9,Hypoalbuminemia,Metabolism and nutrition disorders,2,NA,NA,NA,No
+231,0,5,9,Esophageal ulcer,Gastrointestinal disorders,3,NA,NA,NA,No
+241,-9,-9,NA,Peripheral sensory neuropathy,Nervous system disorders,1,NA,NA,NA,No
+241,-9,-9,NA,Dyspnea,"Respiratory, thoracic and mediastinal disorders",1,NA,NA,NA,No
+241,-9,-9,NA,Back pain,Musculoskeletal and connective tissue disorders,1,NA,NA,NA,No
+241,-9,-9,NA,Atrial fibrillation,Cardiac disorders,1,NA,NA,NA,No
+241,-9,-9,NA,Glaucoma,Eye disorders,2,NA,NA,NA,No
+241,-9,-9,NA,Arthralgia,Musculoskeletal and connective tissue disorders,1,NA,NA,NA,No
+241,0,0,NA,Fatigue,General disorders and administration site conditions,2,NA,NA,TRAE,Yes
+241,0,5,21,Nausea,Gastrointestinal disorders,1,TRAE,NA,NA,Yes
+241,0,5,2,"Investigations - Other, specify",Investigations,1,TRAE,NA,NA,Yes
+241,0,9,NA,Diarrhea,Gastrointestinal disorders,2,NA,NA,TRAE,Yes
+241,0,21,NA,Nausea,Gastrointestinal disorders,2,TRAE,NA,NA,Yes
+241,0,26,26,Vomiting,Gastrointestinal disorders,1,TRAE,NA,NA,Yes
+241,28,28,139,Anorexia,Metabolism and nutrition disorders,1,NA,NA,TRAE,Yes
+251,0,1,28,Nausea,Gastrointestinal disorders,1,NA,NA,NA,No
+251,0,1,28,Fatigue,General disorders and administration site conditions,1,NA,NA,NA,No
+251,0,28,56,Hypothyroidism,Endocrine disorders,1,NA,NA,TRAE,Yes
+251,28,56,NA,Insomnia,Psychiatric disorders,1,NA,NA,NA,No
+251,28,56,NA,Hypothyroidism,Endocrine disorders,2,NA,NA,TRAE,Yes
+251,56,84,NA,Depression,Psychiatric disorders,2,NA,NA,NA,No
+251,224,224,NA,Bloating,Gastrointestinal disorders,1,NA,NA,NA,No
+251,280,280,NA,Fracture,"Injury, poisoning and procedural complications",2,NA,NA,NA,No
+251,280,280,281,Fall,"Injury, poisoning and procedural complications",2,NA,NA,NA,No
+261,0,9,17,Vomiting,Gastrointestinal disorders,1,NA,NA,NA,No
+261,0,9,198,Nausea,Gastrointestinal disorders,2,NA,NA,NA,No
+261,0,9,17,Vomiting,Gastrointestinal disorders,1,NA,NA,NA,No
+261,0,9,17,Vomiting,Gastrointestinal disorders,1,NA,NA,NA,No
+261,15,15,17,Dehydration,Metabolism and nutrition disorders,3,NA,NA,NA,No
+261,0,15,17,Hypotension,Vascular disorders,3,NA,NA,NA,No
+261,0,15,17,Creatinine increased,Investigations,3,NA,NA,NA,No
+261,0,15,17,Creatinine increased,Investigations,3,NA,NA,NA,No
+261,0,15,17,Dehydration,Metabolism and nutrition disorders,3,NA,NA,NA,No
+261,0,15,17,Hypotension,Vascular disorders,3,NA,NA,NA,No
+261,0,15,17,Creatinine increased,Investigations,3,NA,NA,NA,No
+261,83,83,198,Constipation,Gastrointestinal disorders,1,NA,NA,NA,No
+261,55,84,198,Anorexia,Metabolism and nutrition disorders,1,NA,NA,NA,No
+261,149,168,198,Pain,General disorders and administration site conditions,2,NA,NA,NA,No
+261,149,169,198,Hypokalemia,Metabolism and nutrition disorders,1,NA,NA,NA,No
+261,149,176,198,Pain,General disorders and administration site conditions,2,NA,NA,NA,No
+261,149,191,198,"Investigations - Other, specify",Investigations,1,NA,NA,NA,No
+261,198,198,198,Anemia,Blood and lymphatic system disorders,2,NA,NA,NA,No
+261,198,198,198,Hyponatremia,Metabolism and nutrition disorders,1,NA,NA,NA,No
+261,198,198,198,Creatinine increased,Investigations,1,NA,NA,NA,No
+261,198,198,198,Hypermagnesemia,Metabolism and nutrition disorders,1,NA,NA,NA,No
+271,0,28,750,Lipase increased,Investigations,1,NA,NA,NA,No
+271,0,28,750,Hyperuricemia,Metabolism and nutrition disorders,1,NA,NA,NA,No
+271,57,70,750,Non-cardiac chest pain,General disorders and administration site conditions,2,NA,NA,NA,No
+271,57,84,750,Anemia,Blood and lymphatic system disorders,1,NA,NA,NA,No
+271,84,85,86,Abdominal pain,Gastrointestinal disorders,2,NA,NA,NA,No
+271,112,105,750,Bone pain,Musculoskeletal and connective tissue disorders,1,NA,NA,NA,No
+271,112,140,153,Lipase increased,Investigations,2,NA,TRAE,NA,Yes
+271,112,154,167,Lipase increased,Investigations,3,NA,TRAE,NA,Yes
+271,112,154,168,Serum amylase increased,Investigations,1,NA,TRAE,NA,Yes
+271,168,168,750,Lipase increased,Investigations,2,NA,NA,NA,No
+271,196,184,750,"Neoplasms benign, malignant and unspecified (incl cysts and polyps) - Other, specify","Neoplasms benign, malignant and unspecified (incl cysts and polyps)",2,NA,NA,NA,No
+271,196,184,750,Esophagitis,Gastrointestinal disorders,1,NA,NA,TRAE,Yes
+271,225,242,750,Fatigue,General disorders and administration site conditions,2,NA,NA,NA,No
+281,1,1,128,Constipation,Gastrointestinal disorders,1,NA,NA,NA,No
+281,29,29,85,Anemia,Blood and lymphatic system disorders,1,NA,NA,NA,No
+281,57,57,57,"Investigations - Other, specify",Investigations,1,NA,NA,NA,No
+281,57,57,57,"Investigations - Other, specify",Investigations,1,NA,NA,NA,No
+281,57,85,170,Nausea,Gastrointestinal disorders,1,NA,NA,NA,No
+281,85,94,170,Stomach pain,Gastrointestinal disorders,1,NA,NA,NA,No
+281,85,101,170,Dyspnea,"Respiratory, thoracic and mediastinal disorders",1,NA,NA,NA,No
+281,113,129,141,Constipation,Gastrointestinal disorders,2,NA,NA,TRAE,Yes
+281,113,129,141,"Gastrointestinal disorders - Other, specify",Gastrointestinal disorders,2,NA,NA,TRAE,Yes
+281,141,163,170,Adult respiratory distress syndrome,"Respiratory, thoracic and mediastinal disorders",5,NA,NA,NA,No
+291,0,19,29,Fever,General disorders and administration site conditions,2,NA,NA,TRAE,Yes
+291,0,21,29,Rash maculo-papular,Skin and subcutaneous tissue disorders,3,NA,NA,TRAE,Yes
+291,0,22,27,Alanine aminotransferase increased,Investigations,1,NA,NA,TRAE,Yes
+291,0,22,27,Aspartate aminotransferase increased,Investigations,1,NA,NA,TRAE,Yes
+291,0,28,33,Alanine aminotransferase increased,Investigations,3,NA,NA,TRAE,Yes
+291,0,28,29,Aspartate aminotransferase increased,Investigations,3,NA,NA,TRAE,Yes
+291,0,28,149,Fatigue,General disorders and administration site conditions,1,NA,NA,NA,No
+291,0,28,149,Hypoalbuminemia,Metabolism and nutrition disorders,2,NA,NA,NA,No
+291,0,30,33,Aspartate aminotransferase increased,Investigations,2,NA,NA,TRAE,Yes
+291,0,30,33,Rash maculo-papular,Skin and subcutaneous tissue disorders,2,NA,NA,TRAE,Yes
+291,0,34,36,Aspartate aminotransferase increased,Investigations,1,NA,NA,TRAE,Yes
+291,0,34,36,Alanine aminotransferase increased,Investigations,2,NA,NA,TRAE,Yes
+291,0,34,149,Rash maculo-papular,Skin and subcutaneous tissue disorders,1,NA,NA,TRAE,Yes
+291,36,37,51,Aspartate aminotransferase increased,Investigations,3,NA,NA,TRAE,Yes
+291,36,37,50,Alanine aminotransferase increased,Investigations,3,NA,NA,TRAE,Yes
+291,36,51,149,Alanine aminotransferase increased,Investigations,1,NA,NA,TRAE,Yes
+291,63,63,149,Anemia,Blood and lymphatic system disorders,2,NA,NA,NA,No
+291,63,63,149,Weight loss,Investigations,1,NA,NA,NA,No
+291,63,63,149,Flank pain,Musculoskeletal and connective tissue disorders,2,NA,NA,NA,No
+291,92,84,149,Nausea,Gastrointestinal disorders,1,NA,NA,NA,No
+291,92,84,92,Vomiting,Gastrointestinal disorders,1,NA,NA,NA,No
+301,0,1,NA,Nausea,Gastrointestinal disorders,1,NA,NA,NA,No
+301,28,28,78,Anemia,Blood and lymphatic system disorders,2,NA,NA,NA,No
+301,28,28,78,Anorexia,Metabolism and nutrition disorders,1,NA,NA,NA,No
+301,28,28,60,Fatigue,General disorders and administration site conditions,3,TRAE,NA,NA,Yes
+301,56,56,78,Lung infection,Infections and infestations,2,NA,NA,NA,No
+301,56,56,78,Vitreous hemorrhage,Eye disorders,1,NA,NA,NA,No
+301,56,56,78,Aspartate aminotransferase increased,Investigations,3,TRAE,NA,NA,Yes
+301,56,56,78,Alanine aminotransferase increased,Investigations,2,TRAE,NA,NA,Yes
+301,56,56,78,Fatigue,General disorders and administration site conditions,2,TRAE,NA,NA,Yes
+311,0,28,NA,Anorexia,Metabolism and nutrition disorders,1,NA,NA,NA,No
+311,28,55,NA,Fatigue,General disorders and administration site conditions,1,NA,NA,NA,No
+311,28,55,NA,Pain in extremity,Musculoskeletal and connective tissue disorders,1,NA,NA,NA,No
+311,55,55,NA,Edema trunk,General disorders and administration site conditions,1,NA,NA,NA,No
+311,99,99,128,Hyperkalemia,Metabolism and nutrition disorders,2,NA,NA,NA,No
+311,99,128,128,Hyperkalemia,Metabolism and nutrition disorders,1,NA,NA,NA,No
+321,0,8,100,Pain,General disorders and administration site conditions,2,NA,NA,NA,No
+321,53,73,100,Pain in extremity,Musculoskeletal and connective tissue disorders,2,NA,NA,NA,No
+321,53,78,100,Fatigue,General disorders and administration site conditions,1,NA,NA,NA,No
+321,81,87,100,Dyspnea,"Respiratory, thoracic and mediastinal disorders",2,NA,NA,NA,No
+321,81,87,100,Back pain,Musculoskeletal and connective tissue disorders,3,NA,NA,NA,No
+321,81,91,94,Nausea,Gastrointestinal disorders,2,NA,NA,NA,No
+321,81,92,93,Hyponatremia,Metabolism and nutrition disorders,1,NA,NA,NA,No
+321,81,96,100,Confusion,Psychiatric disorders,2,NA,NA,NA,No
+321,81,98,100,Thromboembolic event,Vascular disorders,5,NA,NA,NA,No
+331,0,14,28,Fatigue,General disorders and administration site conditions,2,NA,NA,TRAE,Yes
+331,28,28,55,Alanine aminotransferase increased,Investigations,1,NA,NA,TRAE,Yes
+331,28,28,55,Aspartate aminotransferase increased,Investigations,1,NA,NA,TRAE,Yes
+331,55,55,174,Alanine aminotransferase increased,Investigations,2,NA,NA,TRAE,Yes
+331,55,55,175,Aspartate aminotransferase increased,Investigations,2,NA,NA,TRAE,Yes
+331,55,55,100,Hypoglycemia,Metabolism and nutrition disorders,3,NA,NA,NA,No
+331,55,55,NA,Hypomagnesemia,Metabolism and nutrition disorders,1,NA,NA,NA,No
+331,55,55,100,Hyponatremia,Metabolism and nutrition disorders,1,NA,NA,NA,No
+331,55,58,59,Vomiting,Gastrointestinal disorders,1,NA,NA,NA,No
+331,131,175,NA,Alanine aminotransferase increased,Investigations,1,NA,NA,TRAE,Yes
+341,0,0,1,Nausea,Gastrointestinal disorders,2,NA,NA,TRAE,Yes
+341,0,0,1,Vomiting,Gastrointestinal disorders,1,NA,NA,TRAE,Yes
+341,0,0,1,Gastroesophageal reflux disease,Gastrointestinal disorders,1,NA,NA,TRAE,Yes
+341,27,27,NA,Vomiting,Gastrointestinal disorders,2,NA,NA,TRAE,Yes
+341,27,27,NA,Dyspnea,"Respiratory, thoracic and mediastinal disorders",1,NA,NA,NA,No
+341,27,35,86,Urinary tract infection,Infections and infestations,2,NA,NA,NA,No
+341,36,36,86,Pain,General disorders and administration site conditions,3,NA,NA,NA,No
+341,36,36,86,Weight loss,Investigations,1,NA,NA,NA,No
+341,36,50,65,Hypercalcemia,Metabolism and nutrition disorders,3,NA,NA,NA,No
+341,65,86,86,Death NOS,General disorders and administration site conditions,5,NA,NA,NA,No
+351,0,11,54,Pain,General disorders and administration site conditions,2,NA,NA,NA,No
+351,0,11,54,Anorexia,Metabolism and nutrition disorders,1,NA,NA,NA,No
+351,0,21,54,Fatigue,General disorders and administration site conditions,2,NA,NA,NA,No
+351,28,32,54,Dehydration,Metabolism and nutrition disorders,2,NA,NA,NA,No
+351,28,36,54,Anemia,Blood and lymphatic system disorders,3,NA,NA,NA,No
+351,28,36,37,Pain,General disorders and administration site conditions,3,NA,NA,NA,No
+351,28,54,54,Death NOS,General disorders and administration site conditions,5,NA,NA,NA,No
+361,0,8,27,Nausea,Gastrointestinal disorders,1,NA,NA,NA,No
+361,0,8,27,Vomiting,Gastrointestinal disorders,1,NA,NA,NA,No
+361,0,8,297,Cough,"Respiratory, thoracic and mediastinal disorders",1,NA,NA,NA,No
+361,27,27,NA,Non-cardiac chest pain,General disorders and administration site conditions,2,NA,NA,NA,No
+361,27,27,54,Hyperkalemia,Metabolism and nutrition disorders,2,NA,NA,NA,No
+361,54,54,NA,Nausea,Gastrointestinal disorders,1,NA,NA,TRAE,Yes
+361,54,54,NA,Generalized muscle weakness,Musculoskeletal and connective tissue disorders,1,NA,NA,NA,No
+361,54,54,NA,Anemia,Blood and lymphatic system disorders,2,NA,NA,NA,No
+361,54,54,NA,Alanine aminotransferase increased,Investigations,1,NA,NA,TRAE,Yes
+361,54,54,NA,Aspartate aminotransferase increased,Investigations,1,NA,NA,TRAE,Yes
+361,54,61,NA,Hyperkalemia,Metabolism and nutrition disorders,1,NA,NA,NA,No
+371,0,28,NA,Nausea,Gastrointestinal disorders,1,NA,NA,TRAE,Yes
+371,0,28,NA,Fatigue,General disorders and administration site conditions,1,NA,NA,NA,No
+371,28,28,91,Hypoalbuminemia,Metabolism and nutrition disorders,2,NA,NA,NA,No
+371,55,70,NA,Anemia,Blood and lymphatic system disorders,1,NA,NA,NA,No
+371,91,91,177,Hypoalbuminemia,Metabolism and nutrition disorders,1,NA,NA,NA,No
+371,91,91,177,Anemia,Blood and lymphatic system disorders,2,NA,NA,NA,No
+381,0,7,15,Aspartate aminotransferase increased,Investigations,3,NA,NA,NA,No
+381,0,7,16,Alanine aminotransferase increased,Investigations,3,NA,NA,NA,No
+381,0,7,16,Abdominal pain,Gastrointestinal disorders,3,NA,NA,NA,No
+381,0,16,17,Aspartate aminotransferase increased,Investigations,4,NA,NA,NA,No
+381,0,17,17,Death NOS,General disorders and administration site conditions,5,NA,NA,NA,No
+391,0,0,28,Nausea,Gastrointestinal disorders,2,NA,TRAE,NA,Yes
+391,0,1,29,Fatigue,General disorders and administration site conditions,1,NA,NA,NA,No
+391,0,1,8,Vomiting,Gastrointestinal disorders,1,NA,TRAE,NA,Yes
+391,0,14,17,Rectal pain,Gastrointestinal disorders,3,NA,NA,NA,No
+391,0,14,17,Hemorrhoidal hemorrhage,Gastrointestinal disorders,2,NA,NA,NA,No
+391,0,24,112,Abdominal pain,Gastrointestinal disorders,2,NA,NA,NA,No
+391,28,30,122,Fatigue,General disorders and administration site conditions,2,NA,NA,NA,No
+391,56,64,122,Dyspnea,"Respiratory, thoracic and mediastinal disorders",3,NA,NA,NA,No
+391,56,67,122,Anorexia,Metabolism and nutrition disorders,1,NA,NA,NA,No
+391,56,67,122,Anorexia,Metabolism and nutrition disorders,1,NA,NA,NA,No
+391,112,112,113,Dehydration,Metabolism and nutrition disorders,2,NA,NA,NA,No
+391,112,113,113,Abdominal pain,Gastrointestinal disorders,3,NA,NA,NA,No
+391,112,113,113,Vomiting,Gastrointestinal disorders,1,NA,NA,TRAE,Yes
+391,112,116,122,Abdominal pain,Gastrointestinal disorders,3,NA,NA,NA,No
+401,0,0,5,Nausea,Gastrointestinal disorders,1,TRAE,NA,NA,Yes
+401,0,5,7,Nausea,Gastrointestinal disorders,3,TRAE,NA,NA,Yes
+401,0,5,7,Vomiting,Gastrointestinal disorders,1,TRAE,NA,NA,Yes
+401,7,7,36,Nausea,Gastrointestinal disorders,1,TRAE,NA,NA,Yes
+411,0,4,232,Nausea,Gastrointestinal disorders,1,NA,NA,TRAE,Yes
+411,0,4,232,"Gastrointestinal disorders - Other, specify",Gastrointestinal disorders,1,NA,NA,TRAE,Yes
+411,0,28,232,Dyspnea,"Respiratory, thoracic and mediastinal disorders",2,NA,NA,NA,No
+411,57,57,110,Alanine aminotransferase increased,Investigations,1,NA,NA,TRAE,Yes
+411,57,57,110,Aspartate aminotransferase increased,Investigations,1,NA,NA,TRAE,Yes
+411,110,130,145,"Respiratory, thoracic and mediastinal disorders - Other, specify","Respiratory, thoracic and mediastinal disorders",2,NA,NA,NA,No
+411,110,138,181,Alanine aminotransferase increased,Investigations,1,NA,NA,TRAE,Yes
+411,110,138,181,Aspartate aminotransferase increased,Investigations,2,NA,NA,TRAE,Yes
+411,110,138,145,GGT increased,Investigations,3,NA,NA,TRAE,Yes
+411,110,138,144,Hypokalemia,Metabolism and nutrition disorders,2,NA,NA,TRAE,Yes
+411,110,138,145,Generalized muscle weakness,Musculoskeletal and connective tissue disorders,2,NA,NA,TRAE,Yes
+411,110,138,232,Anorexia,Metabolism and nutrition disorders,2,NA,NA,NA,No
+411,138,138,232,Peripheral motor neuropathy,Nervous system disorders,1,NA,NA,NA,No
+411,138,145,146,Dehydration,Metabolism and nutrition disorders,1,NA,NA,NA,No
+411,138,145,172,GGT increased,Investigations,2,TRAE,NA,NA,Yes
+411,173,173,201,GGT increased,Investigations,3,TRAE,NA,NA,Yes
+411,173,181,201,Pain,General disorders and administration site conditions,2,NA,NA,NA,No
+411,173,181,201,Abdominal pain,Gastrointestinal disorders,2,NA,NA,NA,No
+411,201,201,293,GGT increased,Investigations,1,TRAE,NA,NA,Yes
+411,201,201,216,"Investigations - Other, specify",Investigations,1,NA,NA,NA,No
+411,201,201,216,"Investigations - Other, specify",Investigations,1,NA,NA,NA,No
+411,201,201,216,Hyponatremia,Metabolism and nutrition disorders,1,NA,NA,NA,No
+411,201,201,231,Cough,"Respiratory, thoracic and mediastinal disorders",2,NA,NA,NA,No
+411,263,279,293,Edema limbs,General disorders and administration site conditions,1,NA,NA,NA,No
+411,293,293,293,Edema face,General disorders and administration site conditions,1,NA,NA,NA,No
+421,0,15,NA,Fatigue,General disorders and administration site conditions,1,NA,NA,NA,No
+421,0,15,NA,Generalized muscle weakness,Musculoskeletal and connective tissue disorders,1,NA,NA,NA,No
+421,28,28,NA,Anorexia,Metabolism and nutrition disorders,1,NA,NA,NA,No
+421,50,64,NA,"Eye disorders - Other, specify",Eye disorders,1,NA,NA,NA,No
+421,50,64,NA,"Investigations - Other, specify",Investigations,1,NA,NA,NA,No
+431,0,28,NA,Flatulence,Gastrointestinal disorders,2,NA,NA,NA,No
+431,28,28,29,Headache,Nervous system disorders,1,NA,NA,NA,No
+431,0,33,231,Back pain,Musculoskeletal and connective tissue disorders,1,NA,NA,NA,No
+431,28,56,91,Nasal congestion,"Respiratory, thoracic and mediastinal disorders",1,NA,NA,NA,No
+431,91,98,99,Nausea,Gastrointestinal disorders,1,NA,NA,NA,No
+431,91,99,100,Vomiting,Gastrointestinal disorders,1,NA,NA,NA,No
+431,91,112,113,Constipation,Gastrointestinal disorders,1,NA,NA,NA,No
+431,119,119,454,Weight loss,Investigations,1,NA,NA,NA,No
+431,147,147,315,Nasal congestion,"Respiratory, thoracic and mediastinal disorders",1,NA,NA,NA,No
+431,147,147,231,Cough,"Respiratory, thoracic and mediastinal disorders",1,NA,NA,NA,No
+431,147,147,231,Dysgeusia,Nervous system disorders,2,NA,NA,NA,No
+431,147,147,315,Sinusitis,Infections and infestations,2,NA,NA,NA,No
+431,175,175,203,Dry mouth,Gastrointestinal disorders,1,NA,NA,NA,No
+431,198,198,231,Weight loss,Investigations,2,NA,NA,NA,No
+431,203,226,203,Upper respiratory infection,Infections and infestations,2,NA,NA,NA,No
+431,315,312,343,Nasal congestion,"Respiratory, thoracic and mediastinal disorders",1,NA,NA,NA,No
+431,371,398,426,"Blood and lymphatic system disorders - Other, specify",Blood and lymphatic system disorders,1,NA,NA,NA,No
+431,398,399,NA,Nausea,Gastrointestinal disorders,1,NA,NA,TRAE,Yes
+431,398,402,423,Upper respiratory infection,Infections and infestations,2,NA,NA,NA,No
+431,402,402,423,"General disorders and administration site conditions - Other, specify",General disorders and administration site conditions,1,NA,NA,NA,No
+431,595,595,NA,Arthritis,Musculoskeletal and connective tissue disorders,1,NA,NA,TRAE,Yes
+431,669,669,670,"Gastrointestinal disorders - Other, specify",Gastrointestinal disorders,1,NA,NA,NA,No
+431,678,692,693,Vomiting,Gastrointestinal disorders,1,NA,NA,NA,No
+431,678,698,699,Headache,Nervous system disorders,1,NA,NA,NA,No
+431,763,763,790,Cough,"Respiratory, thoracic and mediastinal disorders",1,NA,NA,NA,No
+431,847,847,NA,Fatigue,General disorders and administration site conditions,2,NA,NA,NA,No
+431,847,847,875,"Investigations - Other, specify",Investigations,1,NA,NA,NA,No
+431,847,847,875,Weight loss,Investigations,1,NA,NA,NA,No
+431,931,931,958,Dyspnea,"Respiratory, thoracic and mediastinal disorders",1,NA,NA,NA,No
+431,958,958,NA,Vertigo,Ear and labyrinth disorders,1,NA,NA,NA,No
+431,1054,1054,1054,"Investigations - Other, specify",Investigations,1,NA,NA,NA,No
+431,1099,1099,NA,"Investigations - Other, specify",Investigations,2,NA,NA,NA,No
+431,1155,1155,NA,Arthralgia,Musculoskeletal and connective tissue disorders,1,NA,NA,NA,No
+431,1217,1217,1238,Hyperkalemia,Metabolism and nutrition disorders,1,NA,NA,NA,No
+431,1491,1463,NA,Skin hypopigmentation,Skin and subcutaneous tissue disorders,1,NA,TRAE,NA,Yes
+441,0,14,21,Back pain,Musculoskeletal and connective tissue disorders,2,NA,NA,NA,No
+441,0,17,104,Fatigue,General disorders and administration site conditions,2,NA,NA,NA,No
+441,0,30,104,Cough,"Respiratory, thoracic and mediastinal disorders",1,NA,NA,NA,No
+441,30,41,48,Pneumonitis,"Respiratory, thoracic and mediastinal disorders",3,NA,TRAE,NA,Yes
+441,30,42,44,Hyperglycemia,Metabolism and nutrition disorders,3,TRAE,NA,NA,Yes
+441,73,73,104,Fatigue,General disorders and administration site conditions,2,NA,NA,TRAE,Yes
+441,73,73,104,Generalized muscle weakness,Musculoskeletal and connective tissue disorders,2,NA,NA,TRAE,Yes
+441,73,73,103,Anorexia,Metabolism and nutrition disorders,1,NA,NA,TRAE,Yes
+441,73,73,104,Pain,General disorders and administration site conditions,1,NA,NA,NA,No
+441,73,73,104,Generalized muscle weakness,Musculoskeletal and connective tissue disorders,2,NA,NA,TRAE,Yes
+441,73,73,104,Pain,General disorders and administration site conditions,1,NA,NA,NA,No
+441,73,73,103,Anorexia,Metabolism and nutrition disorders,1,NA,NA,TRAE,Yes
+441,95,95,104,Hypoxia,"Respiratory, thoracic and mediastinal disorders",3,NA,NA,NA,No
+441,95,95,104,Bronchopulmonary hemorrhage,"Respiratory, thoracic and mediastinal disorders",1,NA,NA,NA,No
+441,95,95,104,Non-cardiac chest pain,General disorders and administration site conditions,1,NA,NA,NA,No
+441,95,104,104,Respiratory failure,"Respiratory, thoracic and mediastinal disorders",5,NA,NA,NA,No
+451,0,7,86,"Respiratory, thoracic and mediastinal disorders - Other, specify","Respiratory, thoracic and mediastinal disorders",1,NA,NA,NA,No
+451,0,14,54,Anemia,Blood and lymphatic system disorders,1,NA,NA,NA,No
+451,0,28,86,Anorexia,Metabolism and nutrition disorders,1,NA,NA,NA,No
+451,28,54,86,Dyspnea,"Respiratory, thoracic and mediastinal disorders",2,NA,NA,NA,No
+451,54,54,86,GGT increased,Investigations,1,NA,NA,NA,No
+451,54,54,86,Hypermagnesemia,Metabolism and nutrition disorders,1,NA,NA,NA,No
+461,0,8,14,Hyperkalemia,Metabolism and nutrition disorders,1,NA,NA,NA,No
+461,0,20,NA,Pruritus,Skin and subcutaneous tissue disorders,1,NA,NA,NA,No
+461,0,28,NA,Headache,Nervous system disorders,1,NA,NA,TRAE,Yes
+461,0,28,NA,Nausea,Gastrointestinal disorders,1,NA,NA,TRAE,Yes
+461,0,28,NA,Blurred vision,Eye disorders,1,NA,NA,NA,No
+461,0,28,NA,Pain in extremity,Musculoskeletal and connective tissue disorders,1,NA,NA,NA,No
+461,0,28,NA,Anorexia,Metabolism and nutrition disorders,1,NA,NA,NA,No
+461,0,28,NA,Constipation,Gastrointestinal disorders,1,NA,NA,NA,No
+461,54,54,NA,Thromboembolic event,Vascular disorders,2,NA,NA,NA,No
+461,54,79,NA,Non-cardiac chest pain,General disorders and administration site conditions,2,NA,NA,NA,No
+461,54,79,NA,Neuralgia,Nervous system disorders,1,NA,NA,NA,No
+461,84,84,NA,Dyspnea,"Respiratory, thoracic and mediastinal disorders",2,NA,NA,NA,No
+461,84,84,NA,"Respiratory, thoracic and mediastinal disorders - Other, specify","Respiratory, thoracic and mediastinal disorders",2,NA,NA,NA,No
+461,84,84,NA,"Ear and labyrinth disorders - Other, specify",Ear and labyrinth disorders,1,NA,NA,NA,No
+461,84,84,92,Creatinine increased,Investigations,1,NA,NA,NA,No
+461,84,84,92,Productive cough,"Respiratory, thoracic and mediastinal disorders",1,NA,NA,NA,No
+461,84,102,NA,Pleural effusion,"Respiratory, thoracic and mediastinal disorders",2,NA,NA,NA,No
+461,110,112,NA,Anxiety,Psychiatric disorders,2,NA,NA,NA,No
+471,1,14,42,Productive cough,"Respiratory, thoracic and mediastinal disorders",1,NA,NA,NA,No
+471,1,21,42,Dry mouth,Gastrointestinal disorders,1,NA,NA,NA,No
+471,1,26,42,Dyspnea,"Respiratory, thoracic and mediastinal disorders",2,NA,NA,NA,No
+471,1,26,42,Dysphagia,Gastrointestinal disorders,1,NA,NA,NA,No
+471,1,26,42,Sinus tachycardia,Cardiac disorders,2,NA,NA,NA,No
+471,27,33,42,Anxiety,Psychiatric disorders,2,NA,NA,NA,No
+471,27,42,42,Death NOS,General disorders and administration site conditions,5,NA,NA,NA,No
+481,22,22,NA,Fatigue,General disorders and administration site conditions,1,NA,NA,TRAE,Yes
+481,22,22,NA,Gastroesophageal reflux disease,Gastrointestinal disorders,1,NA,NA,TRAE,Yes
+491,0,3,195,Nausea,Gastrointestinal disorders,2,NA,NA,TRAE,Yes
+491,0,14,27,Lipase increased,Investigations,3,NA,NA,TRAE,Yes
+491,27,27,139,Cough,"Respiratory, thoracic and mediastinal disorders",1,NA,NA,NA,No
+491,27,27,139,Gastrointestinal pain,Gastrointestinal disorders,1,NA,NA,NA,No
+491,27,29,30,Epistaxis,"Respiratory, thoracic and mediastinal disorders",1,NA,NA,NA,No
+491,55,87,87,Fever,General disorders and administration site conditions,1,NA,NA,NA,No
+491,87,111,139,Pain,General disorders and administration site conditions,2,NA,NA,NA,No
+491,87,111,NA,Hypothyroidism,Endocrine disorders,2,NA,NA,TRAE,Yes
+491,111,139,NA,Headache,Nervous system disorders,1,NA,NA,NA,No
+491,111,139,164,"Respiratory, thoracic and mediastinal disorders - Other, specify","Respiratory, thoracic and mediastinal disorders",1,NA,NA,NA,No
+491,111,139,195,Serum amylase increased,Investigations,1,NA,TRAE,NA,Yes
+491,139,164,195,Lipase increased,Investigations,3,NA,TRAE,NA,Yes
+491,164,182,195,Vomiting,Gastrointestinal disorders,2,NA,NA,NA,No
+491,164,183,NA,Abdominal pain,Gastrointestinal disorders,1,NA,NA,NA,No
+491,164,183,220,Generalized muscle weakness,Musculoskeletal and connective tissue disorders,1,NA,NA,NA,No
+491,220,235,251,Anemia,Blood and lymphatic system disorders,2,NA,NA,NA,No
+491,220,237,NA,Dyspnea,"Respiratory, thoracic and mediastinal disorders",1,NA,NA,NA,No
+491,251,251,252,Vomiting,Gastrointestinal disorders,1,NA,NA,NA,No
+491,279,279,NA,Nausea,Gastrointestinal disorders,1,NA,NA,NA,No
+491,309,311,NA,Anorexia,Metabolism and nutrition disorders,1,NA,NA,NA,No
+491,339,360,362,"Investigations - Other, specify",Investigations,2,NA,NA,NA,No
+501,0,1,34,Dizziness,Nervous system disorders,1,NA,NA,NA,No
+501,0,1,1,Sinus tachycardia,Cardiac disorders,1,NA,NA,NA,No
+501,0,2,34,Nausea,Gastrointestinal disorders,1,NA,NA,NA,No
+501,0,24,34,Nasal congestion,"Respiratory, thoracic and mediastinal disorders",1,NA,NA,NA,No
+501,0,24,24,Fever,General disorders and administration site conditions,1,NA,NA,NA,No
+501,0,25,29,Alanine aminotransferase increased,Investigations,3,NA,TRAE,NA,Yes
+501,0,25,27,Aspartate aminotransferase increased,Investigations,3,NA,TRAE,NA,Yes
+501,0,25,52,Lung infection,Infections and infestations,2,NA,NA,NA,No
+501,0,25,52,"Infections and infestations - Other, specify",Infections and infestations,2,NA,NA,NA,No
+501,0,25,29,Chills,General disorders and administration site conditions,1,NA,NA,NA,No
+501,0,25,29,Anorexia,Metabolism and nutrition disorders,1,NA,NA,NA,No
+501,0,25,29,Generalized muscle weakness,Musculoskeletal and connective tissue disorders,1,NA,NA,NA,No
+501,0,28,29,Aspartate aminotransferase increased,Investigations,2,NA,TRAE,NA,Yes
+501,0,29,34,Aspartate aminotransferase increased,Investigations,1,NA,TRAE,NA,Yes
+501,0,29,33,Alanine aminotransferase increased,Investigations,2,NA,TRAE,NA,Yes
+501,0,34,76,Alanine aminotransferase increased,Investigations,1,NA,TRAE,NA,Yes
