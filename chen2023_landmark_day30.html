@@ -6,7 +6,6 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-11-02">
 
 <title>Landmark Analysis at Day 30 — Sensitivity Analysis</title>
 <style>
@@ -2406,12 +2405,6 @@ window.Quarto = {
 <div class="quarto-title-meta">
 
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">November 2, 2026</p>
-    </div>
-  </div>
   
     
   </div>
@@ -5217,7 +5210,7 @@ Table 14: 24-biomarker summary — count of significance changes at landmark
 <span id="cb35-15"><a href="#cb35-15" aria-hidden="true" tabindex="-1"></a>  d_lm <span class="ot">&lt;-</span> d <span class="sc">|&gt;</span> <span class="fu">filter</span>(.data[[t_days]] <span class="sc">&gt;</span> LM_DAYS) <span class="sc">|&gt;</span></span>
 <span id="cb35-16"><a href="#cb35-16" aria-hidden="true" tabindex="-1"></a>    <span class="fu">mutate</span>(<span class="at">t_lm =</span> .data[[t_mo]] <span class="sc">-</span> LM_MO)</span>
 <span id="cb35-17"><a href="#cb35-17" aria-hidden="true" tabindex="-1"></a>  cxl  <span class="ot">&lt;-</span> <span class="fu">tryCatch</span>(</span>
-<span id="cb35-18"><a href="#cb35-18" aria-hidden="true" tabindex="-1"></a>    <span class="fu">coxph</span>(<span class="fu">Surv</span>(t_lm, .data[[ev]]) <span class="sc">~</span> ae, <span class="at">data=</span>d_lm),</span>
+<span id="cb35-18"><a href="#cb35-18" aria-hidden="true" tabindex="-1"></a>    <span class="fu">coxph</span>(<span class="fu">as.formula</span>(<span class="fu">paste0</span>(<span class="st">&quot;Surv(t_lm, &quot;</span>, ev, <span class="st">&quot;) ~ ae&quot;</span>)), <span class="at">data=</span>d_lm),</span>
 <span id="cb35-19"><a href="#cb35-19" aria-hidden="true" tabindex="-1"></a>    <span class="at">error=</span>\(e) <span class="cn">NULL</span>)</span>
 <span id="cb35-20"><a href="#cb35-20" aria-hidden="true" tabindex="-1"></a>  sl   <span class="ot">&lt;-</span> <span class="cf">if</span> (<span class="sc">!</span><span class="fu">is.null</span>(cxl)) <span class="fu">summary</span>(cxl)<span class="sc">$</span>coefficients <span class="cf">else</span> <span class="cn">NULL</span></span>
 <span id="cb35-21"><a href="#cb35-21" aria-hidden="true" tabindex="-1"></a>  <span class="co"># TVC</span></span>
@@ -5250,7 +5243,7 @@ Table 14: 24-biomarker summary — count of significance changes at landmark
 <div class="cell">
 <details class="code-fold">
 <summary>Show code</summary>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb36"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a>sig_fmt <span class="ot">&lt;-</span> <span class="cf">function</span>(p) <span class="fu">if_else</span>(<span class="fu">is.na</span>(p), <span class="st">&quot;-&quot;</span>, <span class="fu">if_else</span>(p <span class="sc">&lt;</span> <span class="fl">0.05</span>, <span class="fu">paste0</span>(<span class="st">&quot;**✓** p=&quot;</span>, <span class="fu">formatC</span>(p,<span class="st">&quot;f&quot;</span>,<span class="dv">4</span>)), <span class="fu">paste0</span>(<span class="st">&quot;p=&quot;</span>, <span class="fu">formatC</span>(p,<span class="st">&quot;f&quot;</span>,<span class="dv">4</span>))))</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb36"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a>sig_fmt <span class="ot">&lt;-</span> <span class="cf">function</span>(p) <span class="fu">if_else</span>(<span class="fu">is.na</span>(p), <span class="st">&quot;-&quot;</span>, <span class="fu">if_else</span>(p <span class="sc">&lt;</span> <span class="fl">0.05</span>, <span class="fu">paste0</span>(<span class="st">&quot;**✓** p=&quot;</span>, <span class="fu">formatC</span>(p, <span class="at">format=</span><span class="st">&quot;f&quot;</span>, <span class="at">digits=</span><span class="dv">4</span>)), <span class="fu">paste0</span>(<span class="st">&quot;p=&quot;</span>, <span class="fu">formatC</span>(p, <span class="at">format=</span><span class="st">&quot;f&quot;</span>, <span class="at">digits=</span><span class="dv">4</span>))))</span>
 <span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a>tvc_tbl <span class="sc">|&gt;</span></span>
 <span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">transmute</span>(</span>
@@ -5271,17 +5264,17 @@ Table 15: Three-way comparison: original, day-30 landmark, and time-varying cov
 <div class="cell-output-display">
 <table class="cell caption-top table table-sm table-striped small">
 <colgroup>
-<col style="width: 3%">
-<col style="width: 4%">
-<col style="width: 4%">
-<col style="width: 3%">
+<col style="width: 6%">
+<col style="width: 9%">
+<col style="width: 8%">
+<col style="width: 7%">
+<col style="width: 9%">
+<col style="width: 7%">
+<col style="width: 13%">
 <col style="width: 5%">
-<col style="width: 3%">
-<col style="width: 31%">
-<col style="width: 2%">
-<col style="width: 4%">
-<col style="width: 3%">
-<col style="width: 31%">
+<col style="width: 13%">
+<col style="width: 6%">
+<col style="width: 13%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -5306,11 +5299,11 @@ Table 15: Three-way comparison: original, day-30 landmark, and time-varying cov
 <td style="text-align: right;">32</td>
 <td style="text-align: right;">32</td>
 <td style="text-align: right;">0.313</td>
-<td style="text-align: left;"><strong>✓</strong> p=0.010699999999999999442112930125858838437125086784363</td>
-<td style="text-align: right;">NA</td>
-<td style="text-align: left;">-</td>
+<td style="text-align: left;"><strong>✓</strong> p=0.0107</td>
 <td style="text-align: right;">0.313</td>
-<td style="text-align: left;"><strong>✓</strong> p=0.010699999999999999442112930125858838437125086784363</td>
+<td style="text-align: left;"><strong>✓</strong> p=0.0107</td>
+<td style="text-align: right;">0.313</td>
+<td style="text-align: left;"><strong>✓</strong> p=0.0107</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">A</td>
@@ -5319,11 +5312,11 @@ Table 15: Three-way comparison: original, day-30 landmark, and time-varying cov
 <td style="text-align: right;">32</td>
 <td style="text-align: right;">27</td>
 <td style="text-align: right;">0.284</td>
-<td style="text-align: left;"><strong>✓</strong> p=0.0037999999999999999923672167057020487845875322818756</td>
-<td style="text-align: right;">NA</td>
-<td style="text-align: left;">-</td>
+<td style="text-align: left;"><strong>✓</strong> p=0.0038</td>
 <td style="text-align: right;">0.373</td>
-<td style="text-align: left;">p=0.053900000000000003463895836830488406121730804443359</td>
+<td style="text-align: left;">p=0.0539</td>
+<td style="text-align: right;">0.373</td>
+<td style="text-align: left;">p=0.0539</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">A</td>
@@ -5332,11 +5325,11 @@ Table 15: Three-way comparison: original, day-30 landmark, and time-varying cov
 <td style="text-align: right;">32</td>
 <td style="text-align: right;">32</td>
 <td style="text-align: right;">4.629</td>
-<td style="text-align: left;"><strong>✓</strong> p=0.00069999999999999999288763374849509091291110962629318</td>
-<td style="text-align: right;">NA</td>
-<td style="text-align: left;">-</td>
+<td style="text-align: left;"><strong>✓</strong> p=0.0007</td>
 <td style="text-align: right;">4.629</td>
-<td style="text-align: left;"><strong>✓</strong> p=0.00069999999999999999288763374849509091291110962629318</td>
+<td style="text-align: left;"><strong>✓</strong> p=0.0007</td>
+<td style="text-align: right;">4.629</td>
+<td style="text-align: left;"><strong>✓</strong> p=0.0007</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">A</td>
@@ -5345,11 +5338,11 @@ Table 15: Three-way comparison: original, day-30 landmark, and time-varying cov
 <td style="text-align: right;">32</td>
 <td style="text-align: right;">27</td>
 <td style="text-align: right;">4.562</td>
-<td style="text-align: left;"><strong>✓</strong> p=0.00069999999999999999288763374849509091291110962629318</td>
-<td style="text-align: right;">NA</td>
-<td style="text-align: left;">-</td>
+<td style="text-align: left;"><strong>✓</strong> p=0.0007</td>
 <td style="text-align: right;">3.478</td>
-<td style="text-align: left;"><strong>✓</strong> p=0.02120000000000000009436895709313830593600869178772</td>
+<td style="text-align: left;"><strong>✓</strong> p=0.0212</td>
+<td style="text-align: right;">3.478</td>
+<td style="text-align: left;"><strong>✓</strong> p=0.0212</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">B</td>
@@ -5358,11 +5351,11 @@ Table 15: Three-way comparison: original, day-30 landmark, and time-varying cov
 <td style="text-align: right;">50</td>
 <td style="text-align: right;">46</td>
 <td style="text-align: right;">0.333</td>
-<td style="text-align: left;"><strong>✓</strong> p=0.039699999999999999178434961777384160086512565612793</td>
-<td style="text-align: right;">NA</td>
-<td style="text-align: left;">-</td>
+<td style="text-align: left;"><strong>✓</strong> p=0.0397</td>
 <td style="text-align: right;">0.577</td>
-<td style="text-align: left;">p=0.45269999999999999129585148693877272307872772216797</td>
+<td style="text-align: left;">p=0.4527</td>
+<td style="text-align: right;">0.577</td>
+<td style="text-align: left;">p=0.4527</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">B</td>
@@ -5371,11 +5364,11 @@ Table 15: Three-way comparison: original, day-30 landmark, and time-varying cov
 <td style="text-align: right;">50</td>
 <td style="text-align: right;">45</td>
 <td style="text-align: right;">0.298</td>
-<td style="text-align: left;"><strong>✓</strong> p=0.025200000000000000177635683940025046467781066894531</td>
-<td style="text-align: right;">NA</td>
-<td style="text-align: left;">-</td>
+<td style="text-align: left;"><strong>✓</strong> p=0.0252</td>
 <td style="text-align: right;">0.487</td>
-<td style="text-align: left;">p=0.33050000000000001598721155460225418210029602050781</td>
+<td style="text-align: left;">p=0.3305</td>
+<td style="text-align: right;">0.487</td>
+<td style="text-align: left;">p=0.3305</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">B</td>
@@ -5384,11 +5377,11 @@ Table 15: Three-way comparison: original, day-30 landmark, and time-varying cov
 <td style="text-align: right;">50</td>
 <td style="text-align: right;">46</td>
 <td style="text-align: right;">2.102</td>
-<td style="text-align: left;"><strong>✓</strong> p=0.027300000000000001348920974919565196614712476730347</td>
-<td style="text-align: right;">NA</td>
-<td style="text-align: left;">-</td>
+<td style="text-align: left;"><strong>✓</strong> p=0.0273</td>
 <td style="text-align: right;">1.511</td>
-<td style="text-align: left;">p=0.28179999999999999493738300770928617566823959350586</td>
+<td style="text-align: left;">p=0.2818</td>
+<td style="text-align: right;">1.511</td>
+<td style="text-align: left;">p=0.2818</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">B</td>
@@ -5397,11 +5390,11 @@ Table 15: Three-way comparison: original, day-30 landmark, and time-varying cov
 <td style="text-align: right;">50</td>
 <td style="text-align: right;">45</td>
 <td style="text-align: right;">1.391</td>
-<td style="text-align: left;">p=0.32019999999999998463451333918783348053693771362305</td>
-<td style="text-align: right;">NA</td>
-<td style="text-align: left;">-</td>
+<td style="text-align: left;">p=0.3202</td>
 <td style="text-align: right;">0.993</td>
-<td style="text-align: left;">p=0.98489999999999999769073610877967439591884613037109</td>
+<td style="text-align: left;">p=0.9849</td>
+<td style="text-align: right;">0.993</td>
+<td style="text-align: left;">p=0.9849</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">B</td>
@@ -5410,11 +5403,11 @@ Table 15: Three-way comparison: original, day-30 landmark, and time-varying cov
 <td style="text-align: right;">50</td>
 <td style="text-align: right;">46</td>
 <td style="text-align: right;">0.791</td>
-<td style="text-align: left;">p=0.42309999999999997610800051006663125008344650268555</td>
-<td style="text-align: right;">NA</td>
-<td style="text-align: left;">-</td>
+<td style="text-align: left;">p=0.4231</td>
 <td style="text-align: right;">0.850</td>
-<td style="text-align: left;">p=0.59589999999999998525623823297792114317417144775391</td>
+<td style="text-align: left;">p=0.5959</td>
+<td style="text-align: right;">0.850</td>
+<td style="text-align: left;">p=0.5959</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">B</td>
@@ -5423,11 +5416,11 @@ Table 15: Three-way comparison: original, day-30 landmark, and time-varying cov
 <td style="text-align: right;">50</td>
 <td style="text-align: right;">45</td>
 <td style="text-align: right;">0.679</td>
-<td style="text-align: left;">p=0.18929999999999999604760603233444271609187126159668</td>
-<td style="text-align: right;">NA</td>
-<td style="text-align: left;">-</td>
+<td style="text-align: left;">p=0.1893</td>
 <td style="text-align: right;">0.752</td>
-<td style="text-align: left;">p=0.36189999999999999946709294817992486059665679931641</td>
+<td style="text-align: left;">p=0.3619</td>
+<td style="text-align: right;">0.752</td>
+<td style="text-align: left;">p=0.3619</td>
 </tr>
 </tbody>
 </table>
